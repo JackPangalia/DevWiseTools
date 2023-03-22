@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  background-color: $primaryWhite;
+  align-items: center;
+  padding: 1.5rem;
+
+  header {
+    margin-left: 2rem;
+    a {
+      font-weight: bold;
+      color : $primaryGray;
+      font-size: 1.7rem;
+    }
+  }
+  
+  ul {
+    margin-right: 2rem;
+    align-items: center;
+    margin-left: auto;
+    display: flex;
+    li {
+      padding-inline: 1rem;
+      a {
+        color : $primaryGray;
+
+        &:hover {
+          color : $primaryGreen;
+        }
+      }
+    }
+  }
+}

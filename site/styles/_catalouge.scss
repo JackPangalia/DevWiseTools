@@ -1,0 +1,51 @@
+// tool card css
+.tool-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: $primaryWhite;
+  border-radius: 1rem;
+  padding: 2rem;
+  color : $primaryGray;
+
+
+  img {
+    border-radius: 0.5rem;
+    margin-top: 0.7rem;
+    background-size: cover;
+    height: 8rem;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  p {
+
+    text-align: center;
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+
+   
+  a {
+    padding : 1rem;
+    background-color: $primaryGreen;
+    border-radius: 1rem;
+    color : $primaryGray;
+  }
+}
+// catalouge page css
+.catalouge {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap:1.5rem;
+  padding-inline: 1.5rem;
+}
+
+.catalouge-header {
+  margin-block: 2.5rem;
+  text-align: center;
+  background-image: radial-gradient($primaryGreen, $primaryGray);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
