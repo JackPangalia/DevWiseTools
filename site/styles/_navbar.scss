@@ -6,6 +6,14 @@ nav {
 
   header {
     margin-left: 2rem;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 1rem;
+      width: 3rem;
+      height: 3rem;
+    }
     a {
       font-weight: bold;
       color : $primaryGray;
@@ -24,7 +32,7 @@ nav {
         color : $primaryGray;
 
         &:hover {
-          color : $primaryGreen;
+          font-weight: bold;
         }
       }
     }

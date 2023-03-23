@@ -29,9 +29,14 @@
    
   a {
     padding : 1rem;
-    background-color: $primaryGreen;
+    background-color: $primaryGray;
     border-radius: 1rem;
-    color : $primaryGray;
+    color : $primaryWhite;
+    font-weight: bold;
+
+    &:hover {
+      color : $primaryGreen
+    }
   }
 }
 // catalouge page css
@@ -43,6 +48,7 @@
 }
 
 .catalouge-header {
+  font-size: 2.5rem;
   margin-block: 2.5rem;
   text-align: center;
   background-image: radial-gradient($primaryGreen, $primaryGray);

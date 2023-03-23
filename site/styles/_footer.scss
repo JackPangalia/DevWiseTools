@@ -1,0 +1,39 @@
+footer {
+  background-color: $primaryWhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 8rem;
+}
+
+.footer-header {
+  font-size: 2.5rem;
+  background-image: radial-gradient($primaryGreen, $primaryGray);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold; 
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  ul {
+    border-right: 1px $primaryGray solid;
+    li {
+      margin-blocK: 1rem;
+      margin-right: 1rem;
+      
+      a {
+        color : $primaryGray;
+
+        &:hover {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  p {
+    margin-left: 1rem;
+  }
+}

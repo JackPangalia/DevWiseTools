@@ -11,7 +11,7 @@ const ToolCard = ({image, paragraph, link}: Props) => {
     <div className = 'tool-card'>
       <img src = 'https://cdn-icons-png.flaticon.com/512/25/25231.png' alt = 'image' />
       <p>Lorem ipsum dolor sit amet consectetur. lorem</p>
-      <a href = '#'>Lorem, ipsum.</a>
+      <a href = '#'>Github.com</a>
     </div>
   )
 }
