@@ -38,3 +38,74 @@ nav {
     }
   }
 }
+
+
+.generate-now-link {
+  text-decoration: underline;
+}
+
+.dropdown {
+  margin-left: auto;
+  display: none;
+  position: relative;
+  
+  .dropdown-toggle {
+    background:none;
+    border: none;
+    color: #333;
+    border: none;
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    border: 1px solid #ddd;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease, visibility 0s linear 0.2s, transform 0.2s ease;
+    
+    a {
+      color: #333;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: block;
+      
+      &:hover {
+        background-color: #f1f1f1;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  &:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.2s ease, visibility 0s linear 0s, transform 0.2s ease;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  nav {
+    ul {
+      display: none;
+    }
+
+    .dropdown {
+      display: inline-block;
+    }
+  }
+}

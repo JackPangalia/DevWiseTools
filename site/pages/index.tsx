@@ -2,8 +2,30 @@ import React, {useState, useEffect} from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import { useRouter  } from "next/router";
 
 const Home = () => {
+  const router = useRouter()
+  const [searchInput, setSearchInput] = useState('')
+
+  // handle serach input change
+  const handleSearchInput = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchInput(event.target.value)
+  }
+
+  const handleSearch = () => {
+    router.push({
+      pathname: '/catalouge',
+      query: { searchInput }
+    })
+  }
+
+  const handleSearchKeyDown = (event: { key: string; }) => {
+    if (event.key === 'Enter') {
+      handleSearch()
+    }
+  }
+
   return (
     <>
       <Navbar />
@@ -12,9 +34,12 @@ const Home = () => {
         <div className = 'searchbar'>
           <input 
             placeholder = 'Search For Tools'
+            value = {searchInput}
+            onChange = {handleSearchInput}
+            onKeyDown = {handleSearchKeyDown}
           />
 
-          <button>
+          <button onClick = {handleSearch}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
             </svg>

@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: $primaryWhite;
+  background-color: white;
   border-radius: 1rem;
   padding: 2rem;
   color : $primaryGray;
@@ -40,7 +40,13 @@
   }
 }
 // catalouge page css
+
+.catalog-page {
+  background-color: $primaryWhite;
+  min-height: 100vh;
+}
 .catalouge {
+  background-color: $primaryWhite;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap:1.5rem;

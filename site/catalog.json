@@ -1,5 +1,40 @@
-[
-  {
-    
-  }
-]
+{
+  "free image tools": [
+    {
+      "name": "Pixabay.com",
+      "link": "https://pixabay.com/",
+      "description": "Generic free images"
+    },
+
+    {
+      "name": "pexels.com",
+      "link": "https://pexels.com/",
+      "description": "Generic free images"
+    },
+
+    {
+      "name": "unsplash.com",
+      "link": "https://unsplash.com/",
+      "description": "Generic free images"
+    },
+
+    {
+      "name": "Fotor.com",
+      "link": "https://fotor.com/",
+      "description": "Used to resize and edit images"
+    }
+  ],
+
+  "Fonts and Icons": [
+    {
+      "name": "heroicons",
+      "link": "https://heroicons.com/",
+      "description": "JSX, SVG icons. Great for react and tailwindcss"
+    },
+
+    {
+      "name": "google fonts",
+      "link": "https://fonts.google.com/"
+    }
+  ]
+}
