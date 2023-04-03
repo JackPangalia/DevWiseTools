@@ -3,10 +3,9 @@
   justify-content: center;
   align-items: center;
   height: 66vh;
-  background-image: linear-gradient(-45deg, $primaryGreen, $primaryGray);
+  background-image: url('https://cdn.wallpapersafari.com/74/92/ZBFWPJ.jpg');
   background-size: cover;
-  background-size: 250% 250%;
-  animation: gradient 15s ease infinite;
+  object-fit: cover;
 }
 
 @keyframes gradient {
@@ -95,6 +94,76 @@
   }
 }
 
+.index-website-catagory-website {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: $primaryWhite;
+  flex-direction: column;
+
+  a {
+    font-weight: bold;
+    font-size: 4rem;
+    color : $primaryGray;
+
+    &:hover {
+      text-decoration: overline;
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.index-website-catagory-packages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: black;
+  flex-direction: column;
+
+  a {
+    font-weight: bold;
+    font-size: 4rem;
+    color : white;
+
+    &:hover {
+      text-decoration: overline;
+    }
+  }
+
+  p {
+    color : white;
+    text-align: center;
+  }
+}
+
+.index-website-catagory-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: $primaryWhite;
+  flex-direction: column;
+
+  a {
+    font-weight: bold;
+    font-size: 4rem;
+    color : $primaryGray;
+
+    &:hover {
+      text-decoration: overline;
+    }
+  }
+
+  p {
+    color : $primaryGray;
+    text-align: center;
+  }
+}
 @media (max-width: 1024px) {
   
   .searchbar {
@@ -107,3 +176,4 @@
     gap: 5rem;
   }
 }
+

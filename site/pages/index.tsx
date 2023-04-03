@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "@/components/Footer";
 import { useRouter  } from "next/router";
+import Link from "next/link";
 
 const Home = () => {
   const router = useRouter()
@@ -33,7 +34,7 @@ const Home = () => {
       <main className = 'search-bar-area'>
         <div className = 'searchbar'>
           <input 
-            placeholder = 'Search For Tools'
+            placeholder = 'Search For All Tools'
             value = {searchInput}
             onChange = {handleSearchInput}
             onKeyDown = {handleSearchKeyDown}
@@ -47,6 +48,7 @@ const Home = () => {
         </div>
       </main>
 
+      {/* 
       <section className = 'example-showcase-section'>
         <div className = 'example-item'>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -74,6 +76,25 @@ const Home = () => {
           <h1>Easy</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta excepturi commodi dolore consequatur reprehenderit quam illo nobis! Facere provident quaerat, hic aliquam natus numquam voluptatem.</p>
         </div>
+      </section>
+      */}
+
+      <section className = 'index-website-catagory-website'>
+        <Link href = '#'>Find Websites</Link>
+
+        <p>Explore our carefully curated collection of websites, handpicked to enhance your development experience.</p>
+      </section>
+
+      <section className = 'index-website-catagory-packages'>
+        <Link href = '#'>Find Packages</Link>
+
+        <p>Discover our comprehensive catalog of valuable development packages and APIs from npm, pip, and beyond. Ideal for sourcing top-notch tools to optimize your development and bring your dream project to life.</p>
+      </section>
+
+      <section className = 'index-website-catagory-add'>
+        <Link href = '#'>Add To Our Creation</Link>
+
+        <p>Effortlessly expand our extensive network of developer tools for the benefit of all. Additionally, showcase your own developer creations and receive recognition for your contributions.</p>
       </section>
 
       <Footer />

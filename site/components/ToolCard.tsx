@@ -1,17 +1,18 @@
-import Image from "next/image"
-
 interface Props {
-  image:string
-  paragraph:string
-  link:string
+  imgSrc:string,
+  imgAlt:string,
+  paragraph:string,
+  link:string,
+  name:string,
+
 }
 
-const ToolCard = ({image, paragraph, link}: Props) => {
+const ToolCard = ({imgSrc, paragraph, link, name, imgAlt}: Props) => {
   return (
     <div className = 'tool-card'>
-      <img src = 'https://cdn-icons-png.flaticon.com/512/25/25231.png' alt = 'image' />
-      <p>Lorem ipsum dolor sit amet consectetur. lorem</p>
-      <a href = '#'>Github.com</a>
+      <img src = {imgSrc} alt = {imgAlt} />
+      <p>{paragraph}</p>
+      <a href = {link}>{name}</a>
     </div>
   )
 }

@@ -1,40 +1,50 @@
-{
-  "free image tools": [
-    {
-      "name": "Pixabay.com",
-      "link": "https://pixabay.com/",
-      "description": "Generic free images"
-    },
-
-    {
-      "name": "pexels.com",
-      "link": "https://pexels.com/",
-      "description": "Generic free images"
-    },
-
-    {
-      "name": "unsplash.com",
-      "link": "https://unsplash.com/",
-      "description": "Generic free images"
-    },
-
-    {
-      "name": "Fotor.com",
-      "link": "https://fotor.com/",
-      "description": "Used to resize and edit images"
-    }
-  ],
-
-  "Fonts and Icons": [
-    {
-      "name": "heroicons",
-      "link": "https://heroicons.com/",
-      "description": "JSX, SVG icons. Great for react and tailwindcss"
-    },
-
-    {
-      "name": "google fonts",
-      "link": "https://fonts.google.com/"
-    }
-  ]
-}
+[
+  {
+    "type": "website",
+    "tag": "Free images",
+    "name": "Pixabay.com",
+    "paragraph": "Generic free images",
+    "link": "https://pixabay.com",
+    "imgLink": "https://pixabay.com/static/img/logo_square.png"
+  },
+  {
+    "type": "website",
+    "tag": "Free images",
+    "name": "pexels.com",
+    "paragraph": "Generic free images",
+    "link": "https://pexels.com",
+    "imgLink": "https://logos.bugcrowdusercontent.com/logos/7cfc/9afe/eadc3233/49c354597a8fbf87c32726929fbe4ca5_pexels.jpg"
+  },
+  {
+    "type": "website",
+    "tag": "Free images",
+    "name": "Fotor.com",
+    "paragraph": "Used to resize and edit images",
+    "link": "https://fotor.com",
+    "imgLink": "https://cupertinotimes.com/wp-content/uploads/2021/02/Fotor-logo-758x866.jpg"
+  },
+  {
+    "type": "website",
+    "tag": "Learning Tools",
+    "name": "w3schools.com",
+    "paragraph": "Documentation / tutorial website in multiple languages",
+    "link": "https://w3schools.com",
+    "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1088px-W3Schools_logo.svg.png"
+  },
+  {
+    "type": "website",
+    "tag": "Fix your errors",
+    "name": "stackoverflow.com",
+    "paragraph": "Forum style programming website",
+    "link": "https://stackoverflow.com",
+    "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png"
+  },
+  {
+    "type": "website",
+    "tag": "Learning Tools",
+    "name": "Learn.Microsoft",
+    "paragraph": "Documentation / tutorial for microsoft tools",
+    "link": "www.learn.microsoft.com",
+    "imgLink": "https://learn.microsoft.com/en-us/media/home-and-directory/featured-training_light.jpg?branch=live"
+  }
+]

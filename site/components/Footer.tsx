@@ -8,7 +8,15 @@ const Footer = () => {
       <div className = 'footer-info'>
         <ul>
           <li>
-            <Link href = '/catalouge'>Eplore</Link>
+            <Link href = '/catalouge'>Websites</Link>
+          </li>
+
+          <li>
+            <Link href = '#'>Packages</Link>
+          </li>
+
+          <li>
+            <Link href = '#'>Add To Us</Link>
           </li>
 
           <li>
@@ -16,7 +24,7 @@ const Footer = () => {
           </li>
         </ul>
         
-        <p>Made by catistec {'</>'}</p>
+        <p>Made by Catis {'</>'}</p>
       </div>
     </footer>
   )

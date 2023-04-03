@@ -13,7 +13,15 @@ const Navbar = () => {
 
       <ul>
         <li>
-          <Link href = '/catalouge'>Explore</Link>
+          <Link href = '/catalouge'>Websites</Link>
+        </li>
+
+        <li>
+          <a href = '#'>Packages</a>
+        </li>
+
+        <li>
+          <a href = '/addcontent'>Add to us</a>
         </li>
 
         <li>

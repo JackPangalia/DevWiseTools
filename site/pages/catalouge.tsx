@@ -2,23 +2,41 @@ import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import ToolCard from "@/components/ToolCard";
 import { useRouter } from "next/router";
+import data from '../catalog.json'
 
-const Catalouge = () => {
+interface Tool {
+  name: string;
+  paragraph: string;
+  imgLink: string;
+  link: string;
+}
+
+const Catalogue = () => {
   const router = useRouter()
   const { searchInput } = router.query
-
-  console.log('search input: ', searchInput)
-
+  
   return (
-    <div className = 'catalog-page'>
+    <div className='catalog-page'>
       <Navbar />
-      <h1 className = 'catalouge-header'>Explore</h1>
+      <h1 className='catalogue-header'>Explore</h1>
 
-      <main className = 'catalouge'>
-        <ToolCard image = 'sdfs' link = 'dsafklja' paragraph = 'sdafakl' />
+      <main className='catalogue'>
+        
+        {data.map((tool: Tool, index: number) => (
+          
+          <ToolCard 
+            key={index}
+            name={tool.name}
+            paragraph={tool.paragraph}
+            imgSrc={tool.imgLink}
+            imgAlt='image'
+            link={tool.link}
+          />
+          
+        ))}
       </main>
     </div>
   )
 }
 
-export default Catalouge
+export default Catalogue;
