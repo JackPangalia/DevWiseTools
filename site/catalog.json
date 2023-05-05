@@ -25,7 +25,7 @@
   },
   {
     "type": "website",
-    "tag": "Learning Tools",
+    "tag": "tutorials",
     "name": "w3schools.com",
     "paragraph": "Documentation / tutorial website in multiple languages",
     "link": "https://w3schools.com",
@@ -41,10 +41,162 @@
   },
   {
     "type": "website",
-    "tag": "Learning Tools",
+    "tag": "tutorials",
     "name": "Learn.Microsoft",
     "paragraph": "Documentation / tutorial for microsoft tools",
     "link": "www.learn.microsoft.com",
     "imgLink": "https://learn.microsoft.com/en-us/media/home-and-directory/featured-training_light.jpg?branch=live"
+  }, 
+  {
+    "type": "website",
+    "tag": "Free images",
+    "name": "unsplash.com",
+    "paragraph": "Free Generic Images",
+    "link": "https://unsplash.com/",
+    "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_of_Unsplash.svg/1024px-Logo_of_Unsplash.svg.png"
+  },
+  {
+    "type": "website",
+    "tag": "Icons & Fonts", 
+    "name": "Heroicons.com",
+    "paragraph": "JSX, SVG icons for react and tailwindcss", 
+    "link": "https://heroicons.com/",
+    "imgLink": "https://ph-files.imgix.net/3f1c203b-342e-43e7-9f51-b9dc39b7d2c7.png?auto=format"
+  },
+  {
+    "type": "website",
+    "tag": "Icons & Fonts",
+    "name": "Google Fonts",
+    "paragraph": "HTML, SVG icons for general web development",
+    "link": "https://fonts.google.com/",
+    "imgLink": "https://cdn.iconscout.com/icon/free/png-256/google-fonts-3501838-2931439.png?f=webp&w=256"
+  }, 
+  {
+    "type": "website",
+    "tag": "tutorials",
+    "name": "geeksforgeeks.org",
+    "paragraph": "Documentation, Fixes, tutorials for multiple languages",
+    "link": "https://geeksforgeeks.com",
+    "imgLink": "https://pbs.twimg.com/profile_images/1559406522329100288/bZAmg2J7_400x400.jpg"
+  },
+  {
+    "type": "website",
+    "tag": "practice",
+    "name": "edabit.com",
+    "paragraph": "Practice websites for multiple languages and categories.",
+    "link": "https://edabit.com/",
+    "imgLink": "https://pbs.twimg.com/profile_images/1099659786671611904/pPOnSc6C_400x400.png"
+  },
+  {
+    "type": "website",
+    "tag": "practice",
+    "name": "neetcode.io",
+    "paragraph": "Curated leetcode with answer keys and explanations.",
+    "link": "https://neetcode.io/",
+    "imgLink": "https://i.ytimg.com/an/Y7UTvogADH0/10656977316200473306_mq.jpg?v=631d38dc"
+  },
+  {
+    "type": "website",
+    "tag": "practice",
+    "name": "leetcode.com",
+    "paragraph": "Data structures and algorithms practice website",
+    "link": "https://leetcode.com",
+    "imgLink": "https://leetcode.com/static/images/LeetCode_logo_rvs.png"
+  },
+  {
+    "type": "website",
+    "tag": "practice",
+    "name": "mikkegoes.com",
+    "paragraph": "Basic web development practice website",
+    "link": "https://mikkegoes.com/javascript-projects-for-beginners/",
+    "imgLink": "https://j4r8d7d7.rocketcdn.me/wp-content/uploads/2020/03/JavaScript-projects-for-beginners-Learn-front-end-web-development.jpg"
+  },
+  {
+    "type": "website",
+    "tag": "game development",
+    "name": "Unity asset store",
+    "paragraph": "Offical unity assset store, with all sorts of assets",
+    "link": "https://assetsstore.unity.com",
+    "imgLink": "https://assetstorev1-prd-cdn.unity3d.com/key-image/22ee4a6d-be9c-422e-ab40-d02bf69f17f2.png"
+  },
+  {
+    "type": "website",
+    "tag": "textures",
+    "name": "quixel.com",
+    "paragraph": "Epic games made photogrammetry textures",
+    "link": "https://quixel.com",
+    "imgLink": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/hlfyhumlzrihtlydrzqx"
+  },
+  {
+    "type": "website",
+    "tag": "textures",
+    "name": "texturelib.com",
+    "paragraph": "Generic, free, high quality textures",
+    "link": "https:/texturelib.com",
+    "imgLink": "https://cgtricks.com/wp-content/uploads/2017/07/Texturelib.jpg"
+  },
+  {
+    "type": "website",
+    "tag": "textures",
+    "name": "polyhaven.com",
+    "paragraph": "General free high resolution textures",
+    "link": "https://polyhaven.com/",
+    "imgLink": "https://polyhaven.com/Logo%20256.png"
+  },
+  {
+    "type": "website",
+    "tag": "documentation",
+    "name": "Unity Docs",
+    "paragraph": "Unity's official scripting api docs",
+    "link": "https://docs.unity3d.com/ScriptReference/",
+    "imgLink": "https://polyhaven.com/Logo%20256.png"
+  },
+  {
+    "type": "website",
+    "tag": "documentation",
+    "name": "devdocs.io",
+    "paragraph": "documentation hub for multiple languages ",
+    "link": "https://devdocs.io",
+    "imgLink": "https://devdocs.io/images/icon-320.png"
+  },
+  {
+    "type": "website",
+    "tag": "online ide",
+    "name": "replit.com",
+    "paragraph": "Collaborative web base IDE with modern languages and features",
+    "link": "https://replit.com/",
+    "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png"
+  },
+  {
+    "type": "website",
+    "tag": "online ide",
+    "name": "cs50ide.io",
+    "paragraph": "Online IDE, resembling real IDE's",
+    "link": "https://ide.cs50.io",
+    "imgLink": "https://ide.cs50.io/static/ide.png"
+  },
+  {
+    "type": "website",
+    "tag": "design tool",
+    "name": "lucid chart",
+    "paragraph": "Website for designing flow charts",
+    "link": "https://lucidchart.com/",
+    "imgLink": "https://avatars.slack-edge.com/2022-07-26/3865608556737_8f4ae4a98b36ab6912b3_512.png"
+  },
+  {
+    "type": "website",
+    "tag": "design tool",
+    "name": "lucid spark",
+    "paragraph": "Website for designing whiteboards",
+    "link": "https://lucidspark.com/",
+    "imgLink": "https://cdn-cashy-static-assets.lucidchart.com/lucidco/brand/l-brand-logo-lucidspark-120x120.png"
+  },
+  {
+    "type": "website",
+    "tag": "design tool",
+    "name": "figma.com",
+    "paragraph": "Free SVG graphic design website",
+    "link": "https://figma.com/",
+    "imgLink": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
   }
 ]

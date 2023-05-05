@@ -13,7 +13,8 @@ interface Tool {
 
 const Catalogue = () => {
   const router = useRouter()
-  const { searchInput } = router.query
+  const { catagory } = router.query
+  console.log(catagory)
   
   return (
     <div className='catalog-page'>

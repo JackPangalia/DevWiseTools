@@ -29,13 +29,12 @@
    
   a {
     padding : 1rem;
-    background-color: $primaryGray;
+    background-color: black;
     border-radius: 1rem;
     color : $primaryWhite;
-    font-weight: bold;
 
     &:hover {
-      color : $primaryGreen
+      font-weight: bold;
     }
   }
 }
@@ -47,9 +46,10 @@
 }
 
 .catalogue {
+  padding-block: 2rem;
   background-color: $primaryWhite;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap:2rem;
   padding-inline: 2rem;
 }
@@ -58,5 +58,5 @@
   font-size: 2.5rem;
   margin-block: 3rem;
   text-align: center;
-  color : $primaryGray;
+  color : black;
 }

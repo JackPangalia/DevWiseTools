@@ -16,10 +16,6 @@ const Footer = () => {
           </li>
 
           <li>
-            <Link href = '#'>Add To Us</Link>
-          </li>
-
-          <li>
             <a href = '#'>About</a>
           </li>
         </ul>

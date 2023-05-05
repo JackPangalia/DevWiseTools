@@ -13,15 +13,11 @@ const Navbar = () => {
 
       <ul>
         <li>
-          <Link href = '/catalouge'>Websites</Link>
+          <Link href = '/websites'>Websites</Link>
         </li>
 
         <li>
           <a href = '#'>Packages</a>
-        </li>
-
-        <li>
-          <a href = '/addcontent'>Add to us</a>
         </li>
 
         <li>
@@ -31,7 +27,7 @@ const Navbar = () => {
 
       <div className="dropdown">
         <button className="dropdown-toggle">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="white" className="w-6 h-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="black" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </button>
