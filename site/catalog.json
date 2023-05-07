@@ -1,7 +1,9 @@
 [
   {
     "type": "website",
-    "tag": "Free images",
+    "tags": [
+      "freeimages"
+    ],
     "name": "Pixabay.com",
     "paragraph": "Generic free images",
     "link": "https://pixabay.com",
@@ -9,7 +11,9 @@
   },
   {
     "type": "website",
-    "tag": "Free images",
+    "tag": [
+      "freeimages"
+    ],
     "name": "pexels.com",
     "paragraph": "Generic free images",
     "link": "https://pexels.com",
@@ -17,7 +21,9 @@
   },
   {
     "type": "website",
-    "tag": "Free images",
+    "tag": [
+      "freeimages"
+    ],
     "name": "Fotor.com",
     "paragraph": "Used to resize and edit images",
     "link": "https://fotor.com",
@@ -25,7 +31,11 @@
   },
   {
     "type": "website",
-    "tag": "tutorials",
+    "tag": [
+      "documentation",
+      "tutorials",
+      "practice"
+    ],
     "name": "w3schools.com",
     "paragraph": "Documentation / tutorial website in multiple languages",
     "link": "https://w3schools.com",
@@ -33,7 +43,12 @@
   },
   {
     "type": "website",
-    "tag": "Fix your errors",
+    "tag": [
+      "productivity",
+      "forums",
+      "practice",
+      "tutorials"
+    ],
     "name": "stackoverflow.com",
     "paragraph": "Forum style programming website",
     "link": "https://stackoverflow.com",
@@ -41,7 +56,11 @@
   },
   {
     "type": "website",
-    "tag": "tutorials",
+    "tag": [
+      "practice",
+      "documentation",
+      "forums"
+    ],
     "name": "Learn.Microsoft",
     "paragraph": "Documentation / tutorial for microsoft tools",
     "link": "www.learn.microsoft.com",
@@ -49,7 +68,9 @@
   }, 
   {
     "type": "website",
-    "tag": "Free images",
+    "tag": [
+      "freeimages"
+    ],
     "name": "unsplash.com",
     "paragraph": "Free Generic Images",
     "link": "https://unsplash.com/",
@@ -57,7 +78,10 @@
   },
   {
     "type": "website",
-    "tag": "Icons & Fonts", 
+    "tag": [
+      "fontsandicons",
+      "webdevelopment"
+    ], 
     "name": "Heroicons.com",
     "paragraph": "JSX, SVG icons for react and tailwindcss", 
     "link": "https://heroicons.com/",
@@ -65,7 +89,10 @@
   },
   {
     "type": "website",
-    "tag": "Icons & Fonts",
+    "tag": [
+      "fontsandicons",
+      "webdevelopment"
+    ],
     "name": "Google Fonts",
     "paragraph": "HTML, SVG icons for general web development",
     "link": "https://fonts.google.com/",
@@ -73,7 +100,12 @@
   }, 
   {
     "type": "website",
-    "tag": "tutorials",
+    "tag": [
+      "tutorials",
+      "forums",
+      "documentation",
+      "practice"
+    ],
     "name": "geeksforgeeks.org",
     "paragraph": "Documentation, Fixes, tutorials for multiple languages",
     "link": "https://geeksforgeeks.com",
@@ -81,7 +113,9 @@
   },
   {
     "type": "website",
-    "tag": "practice",
+    "tag": [
+      "practice"
+    ],
     "name": "edabit.com",
     "paragraph": "Practice websites for multiple languages and categories.",
     "link": "https://edabit.com/",
@@ -89,7 +123,9 @@
   },
   {
     "type": "website",
-    "tag": "practice",
+    "tag": [
+      "practice"
+    ],
     "name": "neetcode.io",
     "paragraph": "Curated leetcode with answer keys and explanations.",
     "link": "https://neetcode.io/",
@@ -97,7 +133,9 @@
   },
   {
     "type": "website",
-    "tag": "practice",
+    "tag": [
+      "practice"
+    ],
     "name": "leetcode.com",
     "paragraph": "Data structures and algorithms practice website",
     "link": "https://leetcode.com",
@@ -105,7 +143,10 @@
   },
   {
     "type": "website",
-    "tag": "practice",
+    "tag": [
+      "practice",
+      "insperation"
+    ],
     "name": "mikkegoes.com",
     "paragraph": "Basic web development practice website",
     "link": "https://mikkegoes.com/javascript-projects-for-beginners/",
@@ -113,7 +154,13 @@
   },
   {
     "type": "website",
-    "tag": "game development",
+    "tag": [
+      "assets",
+      "packages",
+      "gamedevelopment",
+      "textures",
+      "3dmodels"
+    ],
     "name": "Unity asset store",
     "paragraph": "Offical unity assset store, with all sorts of assets",
     "link": "https://assetsstore.unity.com",
@@ -121,7 +168,12 @@
   },
   {
     "type": "website",
-    "tag": "textures",
+    "tag": [
+      "textures",
+      "gamedevelopment",
+      "3dmodels",
+      "assets"
+    ],
     "name": "quixel.com",
     "paragraph": "Epic games made photogrammetry textures",
     "link": "https://quixel.com",
@@ -129,15 +181,24 @@
   },
   {
     "type": "website",
-    "tag": "textures",
+    "tag": [
+      "textures",
+      "assets",
+      "gamedevelopment"
+    ],
     "name": "texturelib.com",
     "paragraph": "Generic, free, high quality textures",
     "link": "https:/texturelib.com",
     "imgLink": "https://cgtricks.com/wp-content/uploads/2017/07/Texturelib.jpg"
   },
+
   {
     "type": "website",
-    "tag": "textures",
+    "tag": [
+      "textures",
+      "assets",
+      "gamedevelopment"
+    ],
     "name": "polyhaven.com",
     "paragraph": "General free high resolution textures",
     "link": "https://polyhaven.com/",
@@ -145,7 +206,11 @@
   },
   {
     "type": "website",
-    "tag": "documentation",
+    "tag": [
+      "gamedevelopment",
+      "documentation",
+      "tutorials"
+    ],
     "name": "Unity Docs",
     "paragraph": "Unity's official scripting api docs",
     "link": "https://docs.unity3d.com/ScriptReference/",
@@ -153,7 +218,9 @@
   },
   {
     "type": "website",
-    "tag": "documentation",
+    "tag": [
+      "documentation"
+    ],
     "name": "devdocs.io",
     "paragraph": "documentation hub for multiple languages ",
     "link": "https://devdocs.io",
@@ -161,7 +228,10 @@
   },
   {
     "type": "website",
-    "tag": "online ide",
+    "tag": [
+      "ides",
+      "productivity"
+    ],
     "name": "replit.com",
     "paragraph": "Collaborative web base IDE with modern languages and features",
     "link": "https://replit.com/",
@@ -169,7 +239,9 @@
   },
   {
     "type": "website",
-    "tag": "online ide",
+    "tag": [
+      "ides"
+    ],
     "name": "cs50ide.io",
     "paragraph": "Online IDE, resembling real IDE's",
     "link": "https://ide.cs50.io",
@@ -177,7 +249,10 @@
   },
   {
     "type": "website",
-    "tag": "design tool",
+    "tag": [
+      "designtools",
+      "productivity"
+    ],
     "name": "lucid chart",
     "paragraph": "Website for designing flow charts",
     "link": "https://lucidchart.com/",
@@ -185,7 +260,10 @@
   },
   {
     "type": "website",
-    "tag": "design tool",
+    "tag": [
+      "designtools",
+      "productivity"
+    ],
     "name": "lucid spark",
     "paragraph": "Website for designing whiteboards",
     "link": "https://lucidspark.com/",
@@ -193,7 +271,9 @@
   },
   {
     "type": "website",
-    "tag": "design tool",
+    "tag": [
+      "designtools"
+    ],
     "name": "figma.com",
     "paragraph": "Free SVG graphic design website",
     "link": "https://figma.com/",
