@@ -23,7 +23,7 @@ const Home = () => {
             });
           }}
         >
-          Web developoment {"< / >"}
+          Web developoment ⌨️
         </button>
     
         <button

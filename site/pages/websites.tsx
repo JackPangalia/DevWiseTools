@@ -1,26 +1,26 @@
-import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import ToolCard from "@/components/ToolCard";
 import { useRouter } from "next/router";
 import data from "../catalog.json";
 
-interface Tool {
+interface CatalogData {
   name: string;
   paragraph: string;
   imgLink: string;
   link: string;
+  tag: string[];
 }
-
 
 const Catalogue = () => {
   const router = useRouter();
   const { catagory } = router.query;
-  console.log(catagory);
+  let catagoryData: any = [];
 
-  data.forEach((tags) => {
-    tags.tag?.forEach((tag) => {
+  // filter over data given the tags of the data and the query parameters
+  data.forEach((dataObject: CatalogData) => {
+    dataObject.tag.forEach((tag: string) => {
       if (tag === catagory) {
-        console.log(tag);
+        catagoryData.push(dataObject);
       }
     });
   });
@@ -31,50 +31,17 @@ const Catalogue = () => {
       <h1 className="catalogue-header">Explore</h1>
 
       <main className="catalogue">
-        {/* {data.map((tool: Tool, index: number) => (
-          
-          <ToolCard 
-          
+      
+        {catagoryData.map((tool: CatalogData, index: number) => (
+          <ToolCard
             key={index}
             name={tool.name}
             paragraph={tool.paragraph}
             imgSrc={tool.imgLink}
-            imgAlt='image'
+            imgAlt="image"
             link={tool.link}
           />
-          
-        ))} */}
-
-        {data.map((tool, index: number) => {
-
-          console.log(tool.tag?.forEach((tag) => {
-            if (tag === catagory) {
-           
-            }
-          }))
-          tool.tag?.forEach((tag) => {
-            if (tag === catagory) {
-              console.log(tag)
-            }
-          })
-          return (
-            <ToolCard 
-          
-              key={index}
-              name={tool.name}
-              paragraph={tool.paragraph}
-              imgSrc={tool.imgLink}
-              imgAlt='image'
-              link={tool.link}
-            />
-          )
-        })}
-
-        {data.map((tool, index:number) => {
-          tool.tag?.forEach((tag) => {
-            if
-          })
-        })}
+        ))}
       </main>
     </div>
   );

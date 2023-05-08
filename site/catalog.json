@@ -1,7 +1,7 @@
 [
   {
     "type": "website",
-    "tags": [
+    "tag": [
       "freeimages"
     ],
     "name": "Pixabay.com",
@@ -278,5 +278,62 @@
     "paragraph": "Free SVG graphic design website",
     "link": "https://figma.com/",
     "imgLink": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "webdevelopment",
+      "freeimages"
+    ],
+    "name": "FreeSvgIllustration.com",
+    "paragraph": "Free SVG Illustrations. Great for modern web development",
+    "link": "https://freesvgillustration.com/",
+    "imgLink": "https://uideck.com/wp-content/uploads/2020/11/free-svg-illustrations.jpg"
+  }, 
+  {
+    "type": "website",
+    "tag": [
+      "productivity"
+    ],
+    "name": "app.Simplenote.app",
+    "paragraph": "Simple Note Taking Website / App Great For Brain Storming",
+    "link": "https://app.simplenote.app/",
+    "imgLink": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Simplenote_logo.svg/1200px-Simplenote_logo.svg.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "ai",
+      "productivity",
+      "documentation",
+      "tutorials"
+    ],
+    "name": "Chat GPT",
+    "paragraph": "World Famous AI Chatbot Great For Any Coder",
+    "link": "https://chat.openai.com/",
+    "imgLink": "https://1000logos.net/wp-content/uploads/2023/02/ChatGPT-Logo.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "productivity",
+      "deploymenttools",
+      "webdevelopment"
+    ],
+    "name": "Google Trends",
+    "paragraph": "Trend data, useful for SEO purposes",
+    "link": "https://trends.google.com/home?geo=CA&hl=en-GB",
+    "imgLink": "https://pbs.twimg.com/profile_images/880534343008927744/cRCD7iF7_400x400.jpg"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "webdevelopment",
+      "deploymenttools"
+    ],
+    "name": "Vercel.com",
+    "paragraph": "Easy To Use Web Deployment Tool",
+    "link": "https://vercel.com/",
+    "imgLink": "https://images.squarespace-cdn.com/content/v1/5cc22d6593a63233d214110c/1597710652025-QEY2UL92MLE1E2BX4WSJ/Vercel+%28Zeit%29.jpg"
   }
 ]
