@@ -335,5 +335,134 @@
     "paragraph": "Easy To Use Web Deployment Tool",
     "link": "https://vercel.com/",
     "imgLink": "https://images.squarespace-cdn.com/content/v1/5cc22d6593a63233d214110c/1597710652025-QEY2UL92MLE1E2BX4WSJ/Vercel+%28Zeit%29.jpg"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "webdevelopment",
+      "gamedevelopment",
+      "productivity"
+    ],
+    "name": "Github.com",
+    "paragraph": "Industry leading source control platform",
+    "link": "https://github.com",
+    "imgLink": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "freeimages",
+      "ai"
+    ],
+    "name": "Dall-E-2",
+    "paragraph": "AI generated images",
+    "link": "https://labs.openai.com/",
+    "imgLink": "https://www.eyerys.com/sites/default/files/open-ai-dalle.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis",
+      "finance"
+    ],
+    "name": "Alpaca API",
+    "paragraph": "General Trading API in a variety of languages",
+    "link": "https://alpaca.markets/",
+    "imgLink": "https://alpaca.markets/learn/content/images/2020/03/alpaca_icon@2x-1.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis",
+      "webdevelopment"
+    ],
+    "name": "Stripe API",
+    "paragraph": "Industry leading payment API",
+    "link": "https://stripe.com/",
+    "imgLink": "https://avatars.githubusercontent.com/u/856813?s=280&v=4"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis",
+      "finance"
+    ],
+    "name": "Interactive broker API",
+    "paragraph": "Interative brokerage API. Great for building trading algorithms",
+    "link": "https://www.interactivebrokers.com/en/trading/ib-api.php",
+    "imgLink": "https://coursera-university-assets.s3.amazonaws.com/79/a3332252c4434bae934afc609051f5/ib-logo-360x360.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis",
+      "ai"
+    ],
+    "name": "Openai API",
+    "paragraph": "Industry leading AI API, used for building with AI",
+    "link": "https://openai.com/blog/openai-api",
+    "imgLink": "https://openaicom.imgix.net/dc934ef7-f0cb-4f5f-bbae-51aa7b0550d9/openai-api.jpg?fm=auto&auto=compress,format&fit=min&rect=0,0,2048,2048&w=1919&h=1919"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis"
+    ],
+    "name": "Twitter API",
+    "paragraph": "Twitter API used for accessing twitter data",
+    "link": "https://developer.twitter.com/en/docs/twitter-api",
+    "imgLink": "https://store-images.s-microsoft.com/image/apps.45406.9007199266244427.4d45042b-d7a5-4a83-be66-97779553b24d.2a88a418-b96d-44a6-ad4f-5e0ee6289b2c"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis"
+    ],
+    "name": "Google Maps API",
+    "paragraph": "Google Maps API, allowing you to use Google Maps in your applications",
+    "link": "https://developers.google.com/maps",
+    "imgLink": "data:image/png;base64,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"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis"
+    ],
+    "name": "Weather API",
+    "paragraph": "Weather API used for accessing live weather data",
+    "link": "https://openweathermap.org/api",
+    "imgLink": "data:image/png;base64,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"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis"
+    ],
+    "name": "Twilio API",
+    "paragraph": "Used to integrate messages, voice and video capabilities",
+    "link": "https://twilio.com",
+    "imgLink": "https://www.twilio.com/assets/icons/twilio-icon-512_maskable.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis",
+      "finance"
+    ],
+    "name": "Alphavantage API",
+    "paragraph": "API used to retrieve financial data of different securities",
+    "link": "https://www.alphavantage.co",
+    "imgLink": "data:image/png;base64,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"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis",
+      "finance"
+    ],
+    "name": "Yahoo Finace API",
+    "paragraph": "API used to retrive financial data",
+    "link": "https://developer.yahoo.com/",
+    "imgLink": "https://play-lh.googleusercontent.com/jQVXIz4MbsuOJSzoeFsTeL2gHoaZTlBtz2JbyG9JAuhsrTPB2vSvsRqsINWYVUr3Xw"
   }
 ]

@@ -1,0 +1,25 @@
+.about-us {
+  background-color: $primaryWhite;
+  height: 88vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    p {
+      width: 50%;
+      font-size: 1.3rem;
+      padding-inline: 5rem;
+      text-align: center;
+    }
+  }
+}

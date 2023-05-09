@@ -4,7 +4,6 @@ interface Props {
   paragraph:string,
   link:string,
   name:string,
-
 }
 
 const ToolCard = ({imgSrc, paragraph, link, name, imgAlt}: Props) => {

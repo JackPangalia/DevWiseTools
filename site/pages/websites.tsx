@@ -25,6 +25,7 @@ const Catalogue = () => {
     });
   });
 
+
   return (
     <div className="catalog-page">
       <Navbar />

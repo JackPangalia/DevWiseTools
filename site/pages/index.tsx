@@ -151,24 +151,6 @@ const Home = () => {
           onClick = {() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'packages'}
-            })
-          }}
-        >Packages 📦</button>
-
-        <button
-          onClick = {() => {
-            router.push({
-              pathname: "/websites",
-              query: { catagory: 'vscodeextensions' }
-            })
-          }}
-        >VScode Extensions </button>
-
-        <button
-          onClick = {() => {
-            router.push({
-              pathname: "/websites",
               query: { catagory: 'tutorials' }
             })
           }}
@@ -199,6 +181,15 @@ const Home = () => {
             })
           }}
         >Deployment tools </button>
+
+        <button
+          onClick = {() => {
+            router.push({
+              pathname: '/websites',
+              query: { catagory: 'finance' }
+            })
+          }}
+        >finance 📈</button>
       </main>
 
       <section className="index-website-catagory-website">
