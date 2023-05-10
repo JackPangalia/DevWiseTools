@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "@/components/Footer";
@@ -7,8 +6,6 @@ import Link from "next/link";
 
 const Home = () => {
   const router = useRouter();
-  const [searchInput, setSearchInput] = useState("");
-  const [searchCatagory, setSearchCatagory] = useState("");
 
   return (
     <>

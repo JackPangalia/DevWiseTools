@@ -12,7 +12,7 @@ interface CatalogData {
   tag: string[];
 }
 
-const Catalogue = () => {
+const Websites = () => {
   const router = useRouter();
   const { catagory } = router.query;
   let catagoryData: any = [];
@@ -98,10 +98,7 @@ const Catalogue = () => {
 
       <Footer bgColor = {'black'} color = {'white'}/>
     </>
-
-    
-    
   );
 };
 
-export default Catalogue;
+export default Websites;
