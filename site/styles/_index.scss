@@ -15,6 +15,10 @@
   padding-top: 10rem;
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 40rem) {
+    font-size: 2.1rem;
+  }
 }
 
 .main-catagory-finder-section {
@@ -37,6 +41,20 @@
       cursor: pointer;
     }
   }
+  
+  @media only screen and (max-width: 70rem) {
+    &{
+      padding-inline: 3rem;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media only screen and (max-width: 40rem) {
+    &{
+      padding-inline: 1.5rem;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
 }
 
 .example-showcase-section {
@@ -46,31 +64,6 @@
   background-color: $primaryWhite;
 }
 
-.example-item {
-  padding-inline: 5rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: $primaryGray;
-
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    background-image: radial-gradient($primaryGreen, $primaryGray);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  svg {
-    margin-bottom: 1rem;
-    height: 3.5rem;
-    width: 3.5rem;
-    color: $primaryGray;
-  }
-}
 
 .index-website-catagory-website {
   display: flex;
@@ -85,28 +78,9 @@
     font-size: 4rem;
     color: $primaryGray;
 
-    &:hover {
-      text-decoration: overline;
+    @media only screen and (max-width: 40rem) {
+      font-size: 2.5rem;
     }
-  }
-
-  p {
-    text-align: center;
-  }
-}
-
-.index-website-catagory-packages {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  background-color: black;
-  flex-direction: column;
-
-  a {
-    font-weight: bold;
-    font-size: 4rem;
-    color: white;
 
     &:hover {
       text-decoration: overline;
@@ -114,7 +88,7 @@
   }
 
   p {
-    color: white;
+    padding-inline: 0.5rem;
     text-align: center;
   }
 }
@@ -132,12 +106,17 @@
     font-size: 4rem;
     color: white;
 
+    @media only screen and (max-width: 40rem) {
+      font-size: 2.5rem;
+    }
+
     &:hover {
       text-decoration: overline;
     }
   }
 
   p {
+    padding-inline: 0.5rem;
     color: white;
     text-align: center;
   }

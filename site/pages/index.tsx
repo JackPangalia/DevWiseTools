@@ -190,10 +190,19 @@ const Home = () => {
             })
           }}
         >finance 📈</button>
+
+        <button
+          onClick = {() => {
+            router.push({
+              pathname: '/websites',
+              query: { catagory: 'technologys' }
+            })
+          }}
+        >Technologys 📀</button>
       </main>
 
       <section className="index-website-catagory-website">
-        <Link href="#">Find Websites</Link>
+        <Link href="/websites">Find Websites</Link>
 
         <p>
           Explore our carefully curated collection of websites, handpicked to
@@ -202,15 +211,14 @@ const Home = () => {
       </section>
 
       <section className="index-website-catagory-about">
-        <Link href="#">Learn About us</Link>
+        <Link href="/about">Learn About us</Link>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex a
-          adipisci rerum?
+          Learn about our mission, our future and usx
         </p>
       </section>
 
-      <Footer />
+      <Footer bgColor = {'white'} color = {'black'}/>
     </>
   );
 };

@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: white;
+  background-color: $primaryWhite;
   border-radius: 1rem;
   padding: 2rem;
   color : $primaryGray;
@@ -41,22 +41,34 @@
 // catalouge page css
 
 .catalog-page {
-  background-color: $primaryWhite;
+  background-color: black;
   min-height: 100vh;
 }
 
 .catalogue {
   padding-block: 2rem;
-  background-color: $primaryWhite;
+  background-color: black;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap:2rem;
   padding-inline: 2rem;
+
+  @media only screen and (max-width: 70rem) {
+    &{
+      grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+  }
+
+  @media only screen and (max-width: 40rem) {
+    &{
+      grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+  }
 }
 
 .catalogue-header {
   font-size: 2.5rem;
-  margin-block: 3rem;
+  margin-block: 9rem;
   text-align: center;
-  color : black;
+  color : white;
 }

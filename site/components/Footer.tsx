@@ -1,26 +1,27 @@
 import Link from "next/link"
 
-const Footer = () => {
+interface FooterProps {
+  bgColor: string
+  color: string
+}
+
+const Footer = ({bgColor, color}: FooterProps) => {
   return (
-    <footer>
-      <Link href = '/' className = 'footer-header'>Devwise</Link>
+    <footer style = {{backgroundColor: bgColor}}>
+      <Link href = '/' className = 'footer-header' style = {{color: color}}>Devwise</Link>
 
       <div className = 'footer-info'>
         <ul>
-          <li>
-            <Link href = '/catalouge'>Websites</Link>
+          <li >
+            <Link href = '/websites' style = {{color: color}}>Websites</Link>
           </li>
 
-          <li>
-            <Link href = '#'>Packages</Link>
-          </li>
-
-          <li>
-            <a href = '#'>About</a>
+          <li >
+            <Link href = '/about' style = {{color: color}}>About</Link>
           </li>
         </ul>
         
-        <p>Made by Catis {'</>'}</p>
+        <p style = {{color: color}}>Made by Catis {'</>'}</p>
       </div>
     </footer>
   )

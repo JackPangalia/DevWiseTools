@@ -17,7 +17,7 @@ const Navbar = () => {
         </li>
 
         <li>
-          <a href = '/about'>About</a>
+          <Link href = '/about'>About</Link>
         </li>
       </ul>
 
@@ -28,9 +28,8 @@ const Navbar = () => {
           </svg>
         </button>
         <div className="dropdown-menu">
-          <a href="#example-header">Examples</a>
-          <a href="#about-section">About</a>
-          <Link href="/quizmaker">Generate Now</Link>
+          <Link href="/websites">Websites</Link>
+          <Link href="/about">About</Link>
         </div>
       </div>
     </nav>
