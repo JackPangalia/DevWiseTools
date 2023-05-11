@@ -64,7 +64,7 @@
     "name": "Learn.Microsoft",
     "paragraph": "Documentation / tutorial for microsoft tools",
     "link": "www.learn.microsoft.com",
-    "imgLink": "https://learn.microsoft.com/en-us/media/home-and-directory/featured-training_light.jpg?branch=live"
+    "imgLink": "https://learn.microsoft.com/en-gb/"
   }, 
   {
     "type": "website",
@@ -108,7 +108,7 @@
     ],
     "name": "geeksforgeeks.org",
     "paragraph": "Documentation, Fixes, tutorials for multiple languages",
-    "link": "https://geeksforgeeks.com",
+    "link": "https://www.geeksforgeeks.org/",
     "imgLink": "https://pbs.twimg.com/profile_images/1559406522329100288/bZAmg2J7_400x400.jpg"
   },
   {
@@ -163,7 +163,7 @@
     ],
     "name": "Unity asset store",
     "paragraph": "Offical unity assset store, with all sorts of assets",
-    "link": "https://assetsstore.unity.com",
+    "link": "https://assetstore.unity.com/",
     "imgLink": "https://assetstorev1-prd-cdn.unity3d.com/key-image/22ee4a6d-be9c-422e-ab40-d02bf69f17f2.png"
   },
   {
@@ -186,19 +186,6 @@
       "assets",
       "gamedevelopment"
     ],
-    "name": "texturelib.com",
-    "paragraph": "Generic, free, high quality textures",
-    "link": "https:/texturelib.com",
-    "imgLink": "https://cgtricks.com/wp-content/uploads/2017/07/Texturelib.jpg"
-  },
-
-  {
-    "type": "website",
-    "tag": [
-      "textures",
-      "assets",
-      "gamedevelopment"
-    ],
     "name": "polyhaven.com",
     "paragraph": "General free high resolution textures",
     "link": "https://polyhaven.com/",
@@ -214,7 +201,7 @@
     "name": "Unity Docs",
     "paragraph": "Unity's official scripting api docs",
     "link": "https://docs.unity3d.com/ScriptReference/",
-    "imgLink": "https://polyhaven.com/Logo%20256.png"
+    "imgLink": "https://yt3.googleusercontent.com/4YAaX7CsQ-paadHsNvC6wdv2nE_7VTKpoNJOTwFhHL4rQqLC8WFe6mNxL-z-e6sfHZbHG-ucPA=s900-c-k-c0x00ffffff-no-rj"
   },
   {
     "type": "website",
@@ -297,7 +284,7 @@
     ],
     "name": "app.Simplenote.app",
     "paragraph": "Simple Note Taking Website / App Great For Brain Storming",
-    "link": "https://app.simplenote.app/",
+    "link": "https://simplenote.com",
     "imgLink": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Simplenote_logo.svg/1200px-Simplenote_logo.svg.png"
   },
   {

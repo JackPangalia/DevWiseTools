@@ -14,10 +14,6 @@ interface CatalogData {
 }
 
 const Websites = () => {
-  <Head>
-    <title>Website Catalog</title>
-  </Head>
-
   const router = useRouter();
 
   // serach query varible (catagory)
@@ -92,7 +88,18 @@ const Websites = () => {
   };
 
   return (
+
+    
     <>
+      <Head>
+        <meta name="keywords" content="developer resources, websites, tools, tutorials, frameworks, coding, programming, software development, web development, productivity, efficiency, workflow, handpicked, curated, search, discovery, optimization" />
+        <meta name = "author" content = "Catis"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Explore the Best Developer Resources - Dev Wise Tools Websites</title>
+        <meta name="description" content="Discover the ultimate collection of developer resources with Dev Wise Tools' handpicked website catalog. Streamline your workflow and boost your productivity with the most powerful and efficient tools, tutorials, and frameworks on the web. Explore our selection today and unleash your coding potential." />
+      </Head>
+
       <main className="catalog-page">
         <Navbar />
         <h1 className="catalogue-header">{catagorySearchTerm()}</h1>

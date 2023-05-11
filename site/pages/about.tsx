@@ -6,7 +6,12 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About</title>
+        <meta name="keywords" content="about, Dev Wise Tools, development resources, web development, software development, developers, high-quality, handpicked, curated, productivity, workflow, mission, vision, empower, streamline, coding potential, future" />
+        <title>About Dev Wise Tools - Discover Our Mission and Vision for Developers</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name = "author" content = "Catis"/>
+        <meta name="description" content="At Dev Wise Tools, we're dedicated to simplifying the search for the best development resources on the web. Our mission is to empower developers with handpicked, high-quality websites that streamline their workflow and boost their productivity. Discover our vision for the future of software development and join us in unleashing your coding potential today." />
       </Head>
 
       <Navbar />

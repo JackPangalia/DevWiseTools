@@ -24,6 +24,7 @@ const ToolCard = ({ imgSrc, paragraph, link, name, imgAlt }: Props) => {
 
       <a 
         href={link}
+        target = "_blank"
       >{name}</a>
     </div>
   );
