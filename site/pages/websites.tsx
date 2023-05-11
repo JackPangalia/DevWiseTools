@@ -3,6 +3,7 @@ import ToolCard from "@/components/ToolCard";
 import { useRouter } from "next/router";
 import data from "../catalog.json";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 interface CatalogData {
   name: string;
@@ -13,24 +14,38 @@ interface CatalogData {
 }
 
 const Websites = () => {
+  <Head>
+    <title>Website Catalog</title>
+  </Head>
+
   const router = useRouter();
+
+  // serach query varible (catagory)
   const { catagory } = router.query;
+
+  // catagaoryData empty array 
   let catagoryData: any = [];
 
 
   // filter over data given the tags of the data and the query parameters
   data.forEach((dataObject: CatalogData) => {
+
+    // check if the catagory is undefined
     if (catagory !== undefined) {
+
+      // iterate through the tags to match with the query parameters
       dataObject.tag.forEach((tag: string) => {
         if (tag === catagory) {
+          // if the tag matches the query parameters then push the data object to the catagoryData array
           catagoryData.push(dataObject);
         }
       });
-    } else {
+    } else { // if the catagory is undef then push all data to the catagoryData array
       catagoryData.push(dataObject);
     }
   });
 
+  // catagorysearch term function to find equalvilents search terms with the display term
   const catagorySearchTerm = () => {
     switch (catagory) {
       case "webdevelopment":
@@ -78,11 +93,11 @@ const Websites = () => {
 
   return (
     <>
-      <div className="catalog-page">
+      <main className="catalog-page">
         <Navbar />
         <h1 className="catalogue-header">{catagorySearchTerm()}</h1>
 
-        <main className="catalogue">
+        <div className="catalogue">
           {catagoryData.map((tool: CatalogData, index: number) => (
             <ToolCard
               key={index}
@@ -93,8 +108,8 @@ const Websites = () => {
               link={tool.link}
             />
           ))}
-        </main>
-      </div>
+        </div>
+      </main>
 
       <Footer bgColor = {'black'} color = {'white'}/>
     </>

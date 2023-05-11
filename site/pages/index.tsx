@@ -1,14 +1,18 @@
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
 import Footer from "@/components/Footer";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Head from "next/head";
 
 const Home = () => {
   const router = useRouter();
 
   return (
     <>
+      <Head>
+        <title>Home</title>
+      </Head>
+
       <Navbar />
       <h1 className="intro-text">Find Coding Tools🔧</h1>
       <main className="main-catagory-finder-section">
@@ -16,186 +20,208 @@ const Home = () => {
           onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'webdevelopment' },
+              query: { catagory: "webdevelopment" },
             });
           }}
         >
           Web developoment ⌨️
         </button>
-    
+
         <button
           onClick={() => {
-
             router.push({
               pathname: "/websites",
-              query: { catagory: 'gamedevelopment'},
-              
+              query: { catagory: "gamedevelopment" },
             });
           }}
         >
           Game development 🎮
         </button>
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'freeimages' }
-            })
+              query: { catagory: "freeimages" },
+            });
           }}
-        >Free images 📸</button>
+        >
+          Free images 📸
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'apis' }
-            })
+              query: { catagory: "apis" },
+            });
           }}
-        >APIs </button>
+        >
+          APIs{" "}
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'productivity' }
-            })
+              query: { catagory: "productivity" },
+            });
           }}
-        >Productivity 🏋️‍♀️</button>
+        >
+          Productivity 🏋️‍♀️
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: '3dmodels'}
-            })
+              query: { catagory: "3dmodels" },
+            });
           }}
-          
-        >3D models</button>
+        >
+          3D models
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'practice'}
-            })
+              query: { catagory: "practice" },
+            });
           }}
-        >Practice 🧑‍💻</button>
+        >
+          Practice 🧑‍💻
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'textures'}
-            })
+              query: { catagory: "textures" },
+            });
           }}
-        >Textures 🖌</button>
+        >
+          Textures 🖌
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'documentation' }
-            })
+              query: { catagory: "documentation" },
+            });
           }}
-        >Documenation 📑</button>
+        >
+          Documenation 📑
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'ai' }
-            })
+              query: { catagory: "ai" },
+            });
           }}
-        >AI 🤖</button>
+        >
+          AI 🤖
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'forums' }
-            })
+              query: { catagory: "forums" },
+            });
           }}
-        >Forums </button>
+        >
+          Forums{" "}
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'designtools' }
-            })
+              query: { catagory: "designtools" },
+            });
           }}
-        >Design Tools 🎨</button>
+        >
+          Design Tools 🎨
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'ides' }
-            })
+              query: { catagory: "ides" },
+            });
           }}
-        >IDEs 🖥</button>
+        >
+          IDEs 🖥
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'assets' }
-            })
+              query: { catagory: "assets" },
+            });
           }}
-        >Assets</button>
+        >
+          Assets
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'tutorials' }
-            })
+              query: { catagory: "tutorials" },
+            });
           }}
-        >Tutorials 🎥</button>
+        >
+          Tutorials 🎥
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'fontsandicons' }
-            })
+              query: { catagory: "fontsandicons" },
+            });
           }}
-        >Fonts and Icons </button>
+        >
+          Fonts and Icons{" "}
+        </button>
         <button
-          onClick = {() => {
-            router.push({
-              pathname: '/websites',
-              query: { catagory: 'insperation'}
-            })
-          }}
-        >Insperation 🧐</button>
-        
-        <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
               pathname: "/websites",
-              query: { catagory: 'deploymenttools'}
-            })
+              query: { catagory: "insperation" },
+            });
           }}
-        >Deployment tools </button>
+        >
+          Insperation 🧐
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
-              pathname: '/websites',
-              query: { catagory: 'finance' }
-            })
+              pathname: "/websites",
+              query: { catagory: "deploymenttools" },
+            });
           }}
-        >finance 📈</button>
+        >
+          Deployment tools{" "}
+        </button>
 
         <button
-          onClick = {() => {
+          onClick={() => {
             router.push({
-              pathname: '/websites',
-              query: { catagory: 'technologys' }
-            })
+              pathname: "/websites",
+              query: { catagory: "finance" },
+            });
           }}
-        >Technologys 📀</button>
+        >
+          finance 📈
+        </button>
       </main>
 
       <section className="index-website-catagory-website">
@@ -210,12 +236,10 @@ const Home = () => {
       <section className="index-website-catagory-about">
         <Link href="/about">Learn About us</Link>
 
-        <p>
-          Learn about our mission, our future and usx
-        </p>
+        <p>Learn about our mission, our future and usx</p>
       </section>
 
-      <Footer bgColor = {'white'} color = {'black'}/>
+      <Footer bgColor={"white"} color={"black"} />
     </>
   );
 };

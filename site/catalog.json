@@ -464,5 +464,158 @@
     "paragraph": "API used to retrive financial data",
     "link": "https://developer.yahoo.com/",
     "imgLink": "https://play-lh.googleusercontent.com/jQVXIz4MbsuOJSzoeFsTeL2gHoaZTlBtz2JbyG9JAuhsrTPB2vSvsRqsINWYVUr3Xw"
+  },
+  {
+    "type": "website",
+     "tag": [
+      "ides",
+      "productivity"
+     ],
+     "name": "Codepen",
+     "paragraph": "online ide used great for testing front-end-code",
+     "link": "https://codepen.io",
+     "imgLink": "https://seeklogo.com/images/C/codepen-logo-FDEB3664F1-seeklogo.com.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "fontsandicons"
+    ],
+    "name": "React Icons",
+    "paragraph": "Easy to use library for icons in react",
+    "link": "https://react-icons.github.io/react-icons/",
+    "imgLink": "https://justinmahar.gallerycdn.vsassets.io/extensions/justinmahar/react-icons-snippets/1.0.5/1673483357431/Microsoft.VisualStudio.Services.Icons.Default"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "fontsandicons"
+    ],
+    "name": "Bootstrap Icons",
+    "paragraph": "Free icon library with over 1,800 svg or webfont icons",
+    "link": "https://icons.getbootstrap.com/",
+    "imgLink": "https://icons.getbootstrap.com/assets/img/icons-hero.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "insperation"
+    ],
+    "name": "awwwards.com",
+    "paragraph": "A website that showecase the best of web design",
+    "link": "https://www.awwwards.com/",
+    "imgLink": "https://assets.awwwards.com/assets/images/logo-schema.png"
+  },
+  {
+    "type":"website",
+    "tag": [
+      "insperation"
+    ],
+    "name": "behance.com",
+    "paragraph": "A community of designers that show their work including web design",
+    "link": "https://www.behance.net/search/projects?field=web+design",
+    "imgLink": "https://play-lh.googleusercontent.com/bvaTHCfTJohpSWFgjXouNkNsVFnC5ssfdaurQzCvPnzBtflEwOEi5vq2vopY4Miv4lI"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "insperation"
+    ],
+    "name": "siteinspire.com",
+    "paragraph": "A curated gallery of the best web design inspiration",
+    "link": "https://www.siteinspire.com/",
+    "imgLink": "https://www.evernote.design/assets/images/siteinspire.jpg"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "ai"
+    ],
+    "name": "PyTorch",
+    "paragraph": "Python machine learning library",
+    "link": "https://pytorch.org/",
+    "imgLink": "https://pytorch.org/assets/images/pytorch-logo.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "ai"
+    ],
+    "name": "Tabnine",
+    "paragraph": "Free Github copilot alternative",
+    "link": "https://www.tabnine.com",
+    "imgLink": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_da5b7af0999b3fa4cf8e854ca19ddb58/tabnine.jpg"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "ides",
+      "productivity",
+      "webdevelopment"
+    ],
+    "name": "VScode",
+    "paragraph": "The premier developer ide",
+    "link": "https://code.visualstudio.com/",
+    "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "forums"
+    ],
+    "name": "dev.to",
+    "paragraph": "A community-driven platform where developers share their experinces",
+    "link": "https://dev.to/",
+    "imgLink": "https://res.cloudinary.com/practicaldev/image/fetch/s--pcSkTMZL--/c_limit,f_auto,fl_progressive,q_80,w_190/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "designtools"
+    ],
+    "name": "Canva",
+    "paragraph": "Easy to use graphic design website",
+    "link": "https://www.canva.com/en_gb/",
+    "imgLink": "https://play-lh.googleusercontent.com/3aWGqSf3T_p3F6wc8FFvcZcnjWlxpZdNaqFVEvPwQ1gTOPkVoZwq6cYvfK9eCkwCXbRY"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "deploymenttools"
+    ],
+    "name": "Netifly",
+    "paragraph": "Free web deployment tools",
+    "link": "https://www.netlify.com/",
+    "imgLink": "https://jeancochrane.com/static/images/blog/netlify-identity-dealbreakers/netlify-logo.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "deploymenttools"
+    ],
+    "name": "digitalocean",
+    "paragraph": "Premium web deployment software",
+    "link": "https://www.digitalocean.com/",
+    "imgLink": "https://yt3.googleusercontent.com/AXuTwGFHTFN7t9QNoZm6M7fjZMdHg5jQiOgyU1B_FlVFmBI4RdHVFvdrieruRY9S1JuAim__-ok=s900-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "finance"
+    ],
+    "name": "Quant Connect",
+    "paragraph": "Used for testing and developing trading algorthims",
+    "link": "https://www.quantconnect.com/",
+    "imgLink": "https://pbs.twimg.com/profile_images/1325857669467439104/M7alqLxx_400x400.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "ai",
+      "3dmodels"
+    ],
+    "name": "Sloyd.ai",
+    "link": "https://www.sloyd.ai/",
+    "imgLink": "https://pbs.twimg.com/media/FIfXBiQXwAEjZNg?format=jpg&name=large"
   }
 ]

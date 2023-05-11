@@ -6,7 +6,7 @@ footer {
   padding-block: 8rem;
 
   @media only screen and (max-width: 40rem) {
-    flex-direction: column; 
+    flex-direction: column;
     gap: 3rem;
   }
 }
@@ -14,7 +14,7 @@ footer {
 .footer-header {
   font-size: bold;
   font-size: 2.5rem;
-  color : $primaryGray;
+  color: $primaryGray;
 }
 
 .footer-info {
@@ -23,11 +23,11 @@ footer {
   ul {
     border-right: 1px $primaryGray solid;
     li {
-      margin-blocK: 1rem;
+      margin-block: 1rem;
       margin-right: 1rem;
-      
+
       a {
-        color : $primaryGray;
+        color: $primaryGray;
 
         &:hover {
           font-weight: bold;

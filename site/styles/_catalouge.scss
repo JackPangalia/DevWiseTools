@@ -4,11 +4,10 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: $primaryWhite;
+  background-color: white;
   border-radius: 1rem;
   padding: 2rem;
-  color : $primaryGray;
-
+  color: $primaryGray;
 
   img {
     border-radius: 0.5rem;
@@ -20,18 +19,16 @@
   }
 
   p {
-
     text-align: center;
     width: 95%;
     margin-bottom: 1rem;
   }
 
-   
   a {
-    padding : 1rem;
+    padding: 1rem;
     background-color: black;
     border-radius: 1rem;
-    color : $primaryWhite;
+    color: $primaryWhite;
 
     &:hover {
       font-weight: bold;
@@ -50,18 +47,18 @@
   background-color: black;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap:2rem;
+  gap: 2rem;
   padding-inline: 2rem;
 
   @media only screen and (max-width: 70rem) {
-    &{
-      grid-template-columns: repeat(2,minmax(0,1fr));
+    & {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
   @media only screen and (max-width: 40rem) {
-    &{
-      grid-template-columns: repeat(1,minmax(0,1fr));
+    & {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
     }
   }
 }
@@ -70,5 +67,5 @@
   font-size: 2.5rem;
   margin-block: 9rem;
   text-align: center;
-  color : white;
+  color: white;
 }

@@ -23,3 +23,17 @@
     }
   }
 }
+
+@media only screen and (max-width: 40rem) {
+  .about-us {
+    padding-top: 5rem;
+    height: 100%;
+    div {
+      p {
+        width: 75%;
+        padding-inline: 1rem;
+        font-size: 1rem;
+      }
+    }
+  }
+}

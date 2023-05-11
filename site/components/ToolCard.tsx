@@ -1,19 +1,32 @@
+import Image from "next/image";
+
 interface Props {
-  imgSrc:string,
-  imgAlt:string,
-  paragraph:string,
-  link:string,
-  name:string,
+  imgSrc: string;
+  imgAlt: string;
+  paragraph: string;
+  link: string;
+  name: string;
 }
 
-const ToolCard = ({imgSrc, paragraph, link, name, imgAlt}: Props) => {
+const ToolCard = ({ imgSrc, paragraph, link, name, imgAlt }: Props) => {
   return (
-    <div className = 'tool-card'>
-      <img src = {imgSrc} alt = {imgAlt} />
-      <p>{paragraph}</p>
-      <a href = {link}>{name}</a>
-    </div>
-  )
-}
+    <div className="tool-card">
+      <Image 
+        loader={() => imgSrc} src={imgSrc}
+        alt={imgAlt} 
+        width={500} 
+        height={500} 
+      />
 
-export default ToolCard
+      <p>
+        {paragraph}
+      </p>
+
+      <a 
+        href={link}
+      >{name}</a>
+    </div>
+  );
+};
+
+export default ToolCard;

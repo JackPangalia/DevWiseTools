@@ -1,17 +1,7 @@
-.search-bar-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 66vh;
-  background-image: url("https://cdn.wallpapersafari.com/74/92/ZBFWPJ.jpg");
-  background-size: cover;
-  object-fit: cover;
-}
-
 .intro-text {
-  font-size: 3.5rem;;
+  font-size: 3.5rem;
   background-color: black;
-  color : white;
+  color: white;
   padding-top: 10rem;
   display: flex;
   justify-content: center;
@@ -41,30 +31,21 @@
       cursor: pointer;
     }
   }
-  
+
   @media only screen and (max-width: 70rem) {
-    &{
+    & {
       padding-inline: 3rem;
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
   @media only screen and (max-width: 40rem) {
-    &{
+    & {
       padding-inline: 1.5rem;
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 }
-
-.example-showcase-section {
-  padding-block: 11rem;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  background-color: $primaryWhite;
-}
-
-
 .index-website-catagory-website {
   display: flex;
   justify-content: center;
