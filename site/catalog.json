@@ -467,14 +467,14 @@
   },
   {
     "type": "website",
-     "tag": [
+    "tag": [
       "ides",
       "productivity"
-     ],
-     "name": "Codepen",
-     "paragraph": "online ide used great for testing front-end-code",
-     "link": "https://codepen.io",
-     "imgLink": "https://seeklogo.com/images/C/codepen-logo-FDEB3664F1-seeklogo.com.png"
+    ],
+    "name": "Codepen",
+    "paragraph": "online ide used great for testing front-end-code",
+    "link": "https://codepen.io",
+    "imgLink": "https://seeklogo.com/images/C/codepen-logo-FDEB3664F1-seeklogo.com.png"
   },
   {
     "type": "website",

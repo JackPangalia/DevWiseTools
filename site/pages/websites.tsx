@@ -28,7 +28,7 @@ const Websites = () => {
 
 
   // filter over data given the tags of the data and the query parameters
-  data.forEach((dataObject: CatalogData) => {
+  data.forEach((dataObject) => {
 
     // check if the catagory is undefined
     if (catagory !== undefined) {
