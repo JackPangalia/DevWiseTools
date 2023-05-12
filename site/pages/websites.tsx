@@ -19,16 +19,13 @@ const Websites = () => {
   // serach query varible (catagory)
   const { catagory } = router.query;
 
-  // catagaoryData empty array 
+  // catagaoryData empty array
   let catagoryData: any = [];
-
 
   // filter over data given the tags of the data and the query parameters
   data.forEach((dataObject) => {
-
     // check if the catagory is undefined
     if (catagory !== undefined) {
-
       // iterate through the tags to match with the query parameters
       dataObject.tag.forEach((tag: string) => {
         if (tag === catagory) {
@@ -36,7 +33,8 @@ const Websites = () => {
           catagoryData.push(dataObject);
         }
       });
-    } else { // if the catagory is undef then push all data to the catagoryData array
+    } else {
+      // if the catagory is undef then push all data to the catagoryData array
       catagoryData.push(dataObject);
     }
   });
@@ -76,28 +74,35 @@ const Websites = () => {
         return "Tutorials";
       case "fontsandicons":
         return "Fonts & Icons";
-      case "insperation":
+      case "inspiration":
         return "Insperation";
       case "deploymenttools":
         return "Deployment Tools";
       case "finace":
         return "Finace";
       case "technologys":
-      default: return "Explore All"
+      default:
+        return "Explore All";
     }
   };
 
   return (
-
-    
     <>
       <Head>
-        <meta name="keywords" content="developer resources, websites, tools, tutorials, frameworks, coding, programming, software development, web development, productivity, efficiency, workflow, handpicked, curated, search, discovery, optimization" />
-        <meta name = "author" content = "Catis"/>
+        <meta
+          name="keywords"
+          content="developer resources, websites, tools, tutorials, frameworks, coding, programming, software development, web development, productivity, efficiency, workflow, handpicked, curated, search, discovery, optimization"
+        />
+        <meta name="author" content="Catis" />
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Explore the Best Developer Resources - Dev Wise Tools Websites</title>
-        <meta name="description" content="Discover the ultimate collection of developer resources with Dev Wise Tools' handpicked website catalog. Streamline your workflow and boost your productivity with the most powerful and efficient tools, tutorials, and frameworks on the web. Explore our selection today and unleash your coding potential." />
+        <title>
+          Explore the Best Developer Resources - Dev Wise Tools Websites
+        </title>
+        <meta
+          name="description"
+          content="Discover the ultimate collection of developer resources with Dev Wise Tools' handpicked website catalog. Streamline your workflow and boost your productivity with the most powerful and efficient tools, tutorials, and frameworks on the web. Explore our selection today and unleash your coding potential."
+        />
       </Head>
 
       <main className="catalog-page">
@@ -118,7 +123,7 @@ const Websites = () => {
         </div>
       </main>
 
-      <Footer bgColor = {'black'} color = {'white'}/>
+      <Footer bgColor={"black"} color={"white"} />
     </>
   );
 };
