@@ -92,6 +92,7 @@ const Websites = () => {
     
     <>
       <Head>
+        <link rel = 'icon' href = 'https://static.thenounproject.com/png/562360-200.png' />
         <meta name="keywords" content="developer resources, websites, tools, tutorials, frameworks, coding, programming, software development, web development, productivity, efficiency, workflow, handpicked, curated, search, discovery, optimization" />
         <meta name = "author" content = "Catis"/>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />

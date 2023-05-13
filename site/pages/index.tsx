@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <>
       <Head>
+        <link rel = 'icon' href = 'https://static.thenounproject.com/png/562360-200.png' />
         <meta name="keywords" content="developer resources, tools, tutorials, frameworks, productivity, workflow, minimalism, curation, search, discovery, handpicked, efficiency, optimization, coding, programming, software development, web development" />
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

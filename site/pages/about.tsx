@@ -6,6 +6,7 @@ const About = () => {
   return (
     <>
       <Head>
+        <link rel = 'icon' href = 'https://static.thenounproject.com/png/562360-200.png' />
         <meta name="keywords" content="about, Dev Wise Tools, development resources, web development, software development, developers, high-quality, handpicked, curated, productivity, workflow, mission, vision, empower, streamline, coding potential, future" />
         <title>About Dev Wise Tools - Discover Our Mission and Vision for Developers</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
