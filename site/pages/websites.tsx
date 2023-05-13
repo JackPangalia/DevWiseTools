@@ -80,8 +80,8 @@ const Websites = () => {
         return "Insperation";
       case "deploymenttools":
         return "Deployment Tools";
-      case "finace":
-        return "Finace";
+      case "finance":
+        return "finance";
       case "technologys":
       default: return "Explore All"
     }

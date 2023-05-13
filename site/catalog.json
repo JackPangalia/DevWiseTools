@@ -602,7 +602,39 @@
       "3dmodels"
     ],
     "name": "Sloyd.ai",
+    "paragraph": "AI generated 3D models",
     "link": "https://www.sloyd.ai/",
     "imgLink": "https://pbs.twimg.com/media/FIfXBiQXwAEjZNg?format=jpg&name=large"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "deploymenttools",
+      "webdevelopment"
+    ],
+    "name": "Ionos",
+    "paragraph": "Budget domain provider",
+    "link": "https://www.ionos.ca/?__lf=Order",
+    "imgLink": "https://play-lh.googleusercontent.com/J-x2cxKBBvV9r8lpN78827_lgOQb5NymY8NNORV-o468XVIHPysaevkcjentfAat1w"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "deploymenttools"
+    ],
+    "name": "Google Domains",
+    "paragraph": "Domain provider",
+    "link": "https://domains.google/",
+    "imgLink": "https://www.panierdachat.com/wp-content/uploads/2020/08/product_logo_lockup_domains_sm_v_product_logo_lockup_gmail_sm_v-845x510-1.png"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "apis"
+    ],
+    "name": "The Guardian API",
+    "paragraph": "News source API",
+    "link": "https://open-platform.theguardian.com/",
+    "imgLink": "https://assets-global.website-files.com/6064b31ff49a2d31e0493af1/639de4bc4d11e7740182f9a5_theguardian.svg"
   }
 ]

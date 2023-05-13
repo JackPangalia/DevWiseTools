@@ -204,7 +204,7 @@ const Home = () => {
             });
           }}
         >
-          Insperation 🧐
+          Inspiration 🧐
         </button>
 
         <button
