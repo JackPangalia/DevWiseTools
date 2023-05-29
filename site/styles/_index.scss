@@ -1,10 +1,19 @@
+.index-page {
+  background-color: black;
+}
+
 .intro-text {
   font-size: 3.5rem;
   background-color: black;
   color: white;
   padding-top: 10rem;
-  display: flex;
-  justify-content: center;
+  margin-inline: auto;
+
+  width: fit-content;  
+  background: linear-gradient(to right, #14b8a6, #3b82f6);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 
   @media only screen and (max-width: 40rem) {
     font-size: 2.1rem;
@@ -16,10 +25,14 @@
   padding-inline: 5rem;
   gap: 1rem;
   background-color: black;
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  // display: grid;
+  // grid-template-columns: repeat(5, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
   button {
+    padding-inline: 5rem;
     height: 4rem;
     color: black;
     border-radius: 0.5rem;
@@ -34,13 +47,19 @@
 
   @media only screen and (max-width: 70rem) {
     & {
-      padding-inline: 3rem;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      button {
+        padding-inline: 4rem;
+      }
     }
   }
 
   @media only screen and (max-width: 40rem) {
     & {
+      button {
+        font-size: 1rem;
+        padding-inline: 0;
+      }
+      display: grid;
       padding-inline: 1.5rem;
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }

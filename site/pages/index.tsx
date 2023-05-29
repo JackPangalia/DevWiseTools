@@ -8,18 +8,18 @@ const Home = () => {
   const router = useRouter();
 
   return (
-    <>
+    <div className = 'index-page'>
       <Head>
-        <meta name="keywords" content="developer resources, tools, tutorials, frameworks, productivity, workflow, minimalism, curation, search, discovery, handpicked, efficiency, optimization, coding, programming, software development, web development" />
+        <meta name="keywords" content="DevWiseTools, developer resources, tools, tutorials, frameworks, productivity, workflow, minimalism, curation, search, discovery, handpicked, efficiency, optimization, coding, programming, software development, web development" />
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name = "author" content = "Catis"/>
+        <meta name = "author" content = "Catistec"/>
         <title>Dev Wise Tools - Simplifying Your Search for the Best Development Resources</title>
         <meta name="description" content="Discover a curated collection of powerful developer resources with Dev Wise Tools. Streamline your workflow and boost your productivity with our minimalist catalog of tools, tutorials, and frameworks. Simplify your search for the best development resources and stay ahead of the curve with Dev Wise Tools today." />
       </Head>
 
       <Navbar />
-      <h1 className="intro-text">Find Coding Tools🔧</h1>
+      <h1 className="intro-text">Find Coding Tools 🛠</h1>
       <main className="main-catagory-finder-section">
         <button
           onClick={() => {
@@ -227,6 +227,7 @@ const Home = () => {
         >
           finance 📈
         </button>
+
       </main>
 
       <section className="index-website-catagory-website">
@@ -241,11 +242,11 @@ const Home = () => {
       <section className="index-website-catagory-about">
         <Link href="/about">Learn About us</Link>
 
-        <p>Learn about our mission, our future and usx</p>
+        <p>Learn about our mission, our future and us</p>
       </section>
 
       <Footer bgColor={"white"} color={"black"} />
-    </>
+    </div>
   );
 };
 

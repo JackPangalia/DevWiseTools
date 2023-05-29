@@ -93,7 +93,7 @@ const Websites = () => {
           name="keywords"
           content="developer resources, websites, tools, tutorials, frameworks, coding, programming, software development, web development, productivity, efficiency, workflow, handpicked, curated, search, discovery, optimization"
         />
-        <meta name="author" content="Catis" />
+        <meta name="author" content="Catistec" />
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>

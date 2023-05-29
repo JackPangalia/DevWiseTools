@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface FooterProps {
   bgColor: string;
@@ -9,7 +10,7 @@ const Footer = ({ bgColor, color }: FooterProps) => {
   return (
     <footer style={{ backgroundColor: bgColor }}>
       <Link href="/" className="footer-header" style={{ color: color }}>
-        Devwise
+        DevwiseTools
       </Link>
 
       <div className="footer-info">
@@ -27,7 +28,8 @@ const Footer = ({ bgColor, color }: FooterProps) => {
           </li>
         </ul>
 
-        <p style={{ color: color }}>Made by Catis {"</>"}</p>
+        <p style={{ color: color }} className = ''>Made by Catis</p>
+        <Image src = './catisteclogo.svg' alt = 'catisteclogo' width = {30} height = {30} />
       </div>
     </footer>
   );
