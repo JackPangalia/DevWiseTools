@@ -28,8 +28,15 @@ const Footer = ({ bgColor, color }: FooterProps) => {
           </li>
         </ul>
 
-        <p style={{ color: color }} className = ''>Made by Catis</p>
-        <Image src = './catisteclogo.svg' alt = 'catisteclogo' width = {30} height = {30} />
+        <p style={{ color: color }} className="">
+          Made by Catis
+        </p>
+        <Image
+          src="./catisteclogo.svg"
+          alt="catisteclogo"
+          width={30}
+          height={30}
+        />
       </div>
     </footer>
   );

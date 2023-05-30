@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div className="index-page">
       <Head>
+        
         <meta
           name="keywords"
           content="DevWiseTools, developer resources, tools, tutorials, frameworks, productivity, workflow, minimalism, curation, search, discovery, handpicked, efficiency, optimization, coding, programming, software development, web development"
@@ -70,7 +71,7 @@ const Home = () => {
             });
           }}
         >
-          APIs{" "}
+          APIs 📟
         </button>
 
         <button
@@ -92,7 +93,7 @@ const Home = () => {
             });
           }}
         >
-          3D models
+          3D models 🧱
         </button>
 
         <button
@@ -147,7 +148,7 @@ const Home = () => {
             });
           }}
         >
-          Forums{" "}
+          Forums 📝
         </button>
 
         <button
@@ -180,7 +181,7 @@ const Home = () => {
             });
           }}
         >
-          Assets
+          Game Assets 🪑
         </button>
 
         <button
@@ -202,7 +203,7 @@ const Home = () => {
             });
           }}
         >
-          Fonts and Icons{" "}
+          Fonts and Icons 🔠
         </button>
         <button
           onClick={() => {
@@ -223,7 +224,7 @@ const Home = () => {
             });
           }}
         >
-          Deployment tools{" "}
+          Deployment tools 🪖
         </button>
 
         <button

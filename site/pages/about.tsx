@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Head from "next/head";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -29,7 +30,9 @@ const About = () => {
       <Navbar />
       <main className="about-us">
         <div>
-          <h2>About Devwise</h2>
+          <h2 className = ''>
+            About Devwise
+          </h2>
           <p>
             Devwise was established with the aim of creating a developer-first
             platform designed by programmers, for programmers. Our objective is
