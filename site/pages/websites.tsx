@@ -43,52 +43,56 @@ const Websites = () => {
   const catagorySearchTerm = () => {
     switch (catagory) {
       case "webdevelopment":
-        return "Web Development";
+        return "Web Development ⌨️";
       case "gamedevelopment":
-        return "Game Development";
+        return "Game Development 🎮";
       case "freeimages":
-        return "Free Images";
+        return "Free Images 📸";
       case "apis":
-        return "API's";
+        return "API's 📟";
       case "productivity":
-        return "Productivity";
+        return "Productivity 🏋️‍♀️";
       case "3dmodels":
-        return "3D Models";
+        return "3D Models 🧱";
       case "practice":
-        return "Practice";
+        return "Practice 🧑‍💻";
       case "textures":
-        return "Textures";
+        return "Textures 🖌";
       case "documentation":
-        return "Documentation";
+        return "Documentation 📑";
       case "ai":
-        return "AI";
+        return "AI 🤖";
       case "forums":
-        return "Forums";
+        return "Forums 📝";
       case "designtools":
-        return "Design Tools";
+        return "Design Tools 🎨";
       case "ides":
-        return "IDE's";
+        return "IDE's 🖥";
       case "assets":
-        return "Assets";
+        return "Assets 🪑";
       case "tutorials":
-        return "Tutorials";
+        return "Tutorials 🎥";
       case "fontsandicons":
-        return "Fonts & Icons";
+        return "Fonts & Icons 🔠";
       case "insperation":
-        return "Insperation";
+        return "Insperation 🧐";
       case "deploymenttools":
-        return "Deployment Tools";
+        return "Deployment Tools 🪖";
       case "finance":
-        return "finance";
+        return "finance 📈";
       case "technologys":
+        return "Technologys";
+      case "hiddengems":
+        return "Hidden Gems 💎"
       default:
-        return "Explore All";
+        return "Explore All 🔎";
     }
   };
 
   return (
     <>
       <Head>
+        <link rel="icon" type="image/png" href="https://static.thenounproject.com/png/562360-200.pngl" />
         <meta
           name="keywords"
           content="developer resources, websites, tools, tutorials, frameworks, coding, programming, software development, web development, productivity, efficiency, workflow, handpicked, curated, search, discovery, optimization"

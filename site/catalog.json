@@ -114,7 +114,8 @@
   {
     "type": "website",
     "tag": [
-      "practice"
+      "practice",
+      "hiddengems"
     ],
     "name": "edabit.com",
     "paragraph": "Practice websites for multiple languages and categories.",
@@ -124,7 +125,8 @@
   {
     "type": "website",
     "tag": [
-      "practice"
+      "practice",
+      "hiddengems"
     ],
     "name": "neetcode.io",
     "paragraph": "Curated leetcode with answer keys and explanations.",
@@ -172,7 +174,8 @@
       "textures",
       "gamedevelopment",
       "3dmodels",
-      "assets"
+      "assets",
+      "hiddengems"
     ],
     "name": "quixel.com",
     "paragraph": "Epic games made photogrammetry textures",
@@ -259,7 +262,8 @@
   {
     "type": "website",
     "tag": [
-      "designtools"
+      "designtools",
+      "hiddengems"
     ],
     "name": "figma.com",
     "paragraph": "Free SVG graphic design website",
@@ -270,7 +274,8 @@
     "type": "website",
     "tag": [
       "webdevelopment",
-      "freeimages"
+      "freeimages",
+      "hiddengems"
     ],
     "name": "FreeSvgIllustration.com",
     "paragraph": "Free SVG Illustrations. Great for modern web development",
@@ -526,7 +531,8 @@
   {
     "type": "website",
     "tag": [
-      "ai"
+      "ai",
+      "hiddengems"
     ],
     "name": "Tabnine",
     "paragraph": "Free Github copilot alternative",

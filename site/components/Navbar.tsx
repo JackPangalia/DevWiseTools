@@ -19,7 +19,7 @@ const Navbar = () => {
           />
         </svg>
 
-        <Link href="/">DevwiseTools</Link>
+        <Link href="/">Devwisetools</Link>
       </header>
 
       <ul>

@@ -1,10 +1,11 @@
 .about-us {
   background-color: $primaryWhite;
-  height: 88vh;
+  height: 90vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   div {
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -12,7 +13,12 @@
     flex-direction: column;
 
     h2 {
+      
+      background: linear-gradient(to right, #14b8a6, #3b82f6);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
       font-size: 3rem;
+      margin-bottom: 1rem;
     }
 
     p {
@@ -27,15 +33,16 @@
 @media only screen and (max-width: 40rem) {
   .about-us {
     padding-top: 5rem;
-    height: 100%;
     div {
-
       h2 {
-        font-size: 3rem;
+        padding-left: 2.5rem;
+        text-align: left;
+        font-size: 2.5rem;
         margin-bottom: 2rem;
       }
       p {
-        width: 75%;
+        text-align: left;
+        width: 80%;
         padding-inline: 1rem;
         font-size: 1.4rem;
       }

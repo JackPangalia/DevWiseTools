@@ -10,7 +10,8 @@ const Home = () => {
   return (
     <div className="index-page">
       <Head>
-        
+        <link rel="icon" type="image/png" href="https://static.thenounproject.com/png/562360-200.pngl" />
+
         <meta
           name="keywords"
           content="DevWiseTools, developer resources, tools, tutorials, frameworks, productivity, workflow, minimalism, curation, search, discovery, handpicked, efficiency, optimization, coding, programming, software development, web development"
@@ -30,6 +31,7 @@ const Home = () => {
 
       <Navbar />
       <h1 className="intro-text">Find Coding Tools 🛠</h1>
+      <p className = 'intro-text-description'>Explore Our Different Catagorys To Find The Tools You Need</p>
       <main className="main-catagory-finder-section">
         <button
           onClick={() => {
@@ -236,6 +238,17 @@ const Home = () => {
           }}
         >
           finance 📈
+        </button>
+
+        <button
+          onClick={() => {
+            router.push({
+              pathname: "/websites",
+              query: { catagory: "hiddengems" },
+            });
+          }}
+        >
+          Hidden Gems 💎
         </button>
       </main>
 

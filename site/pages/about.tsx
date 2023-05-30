@@ -1,12 +1,16 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Head from "next/head";
-import Image from "next/image";
 
 const About = () => {
   return (
     <>
       <Head>
+        <link
+          rel="icon"
+          type="image/png"
+          href="https://static.thenounproject.com/png/562360-200.pngl"
+        />
         <meta
           name="keywords"
           content="about, DevWiseTools, development resources, web development, software development, developers, high-quality, handpicked, curated, productivity, workflow, mission, vision, empower, streamline, coding potential, future"
@@ -30,11 +34,9 @@ const About = () => {
       <Navbar />
       <main className="about-us">
         <div>
-          <h2 className = ''>
-            About Devwise
-          </h2>
+          <h2 className="">About Devwisetools</h2>
           <p>
-            Devwise was established with the aim of creating a developer-first
+            Devwisetools was established with the aim of creating a developer-first
             platform designed by programmers, for programmers. Our objective is
             to assist both novice and skilled programmers in turning their
             dreams into reality by providing access to a carefully curated
