@@ -226,7 +226,7 @@ const Home = () => {
             });
           }}
         >
-          Deployment tools 🪖
+          Post Development & Deployment 🪖
         </button>
 
         <button

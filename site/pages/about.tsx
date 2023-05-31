@@ -49,7 +49,9 @@ const About = () => {
         </div>
       </main>
 
-      <Footer color={"black"} bgColor={"defualt"} />
+      <Footer color={"white"} bgColor={"black"} />
+
+
     </>
   );
 };

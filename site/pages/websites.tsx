@@ -77,13 +77,13 @@ const Websites = () => {
       case "insperation":
         return "Insperation 🧐";
       case "deploymenttools":
-        return "Deployment Tools 🪖";
+        return "Post Development & Deployment 🪖";
       case "finance":
         return "finance 📈";
-      case "technologys":
-        return "Technologys";
       case "hiddengems":
         return "Hidden Gems 💎"
+      case "marketing":
+        return "Marketing 🗣"
       default:
         return "Explore All 🔎";
     }

@@ -29,7 +29,7 @@ const Footer = ({ bgColor, color }: FooterProps) => {
         </ul>
 
         <p style={{ color: color }} className="">
-          Made by Catis
+          Made by Catistec
         </p>
         <Image
           src="./catisteclogo.svg"

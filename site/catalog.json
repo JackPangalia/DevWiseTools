@@ -589,7 +589,7 @@
     "name": "digitalocean",
     "paragraph": "Premium web deployment software",
     "link": "https://www.digitalocean.com/",
-    "imgLink": "https://yt3.googleusercontent.com/AXuTwGFHTFN7t9QNoZm6M7fjZMdHg5jQiOgyU1B_FlVFmBI4RdHVFvdrieruRY9S1JuAim__-ok=s900-c-k-c0x00ffffff-no-rj"
+    "imgLink": "https://companieslogo.com/img/orig/DOCN-6eec72eb.png?t=1660638083"
   },
   {
     "type": "website",
@@ -642,5 +642,15 @@
     "paragraph": "News source API",
     "link": "https://open-platform.theguardian.com/",
     "imgLink": "https://assets-global.website-files.com/6064b31ff49a2d31e0493af1/639de4bc4d11e7740182f9a5_theguardian.svg"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "deploymenttools"
+    ],
+    "name": "Producthunt",
+    "paragraph": "Website to launch and find websites, great for your business!",
+    "link": "https://www.producthunt.com/",
+    "imgLink": "https://play-lh.googleusercontent.com/egUVT8GXqDto2jhREfVXQ-RobMNxzx3uANdTgcXVvahfLQ9A6it1znfo4dhV9GgJUg"
   }
 ]

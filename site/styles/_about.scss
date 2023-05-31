@@ -1,5 +1,5 @@
 .about-us {
-  background-color: $primaryWhite;
+  background-color: black;
   height: 90vh;
   display: flex;
   justify-content: space-around;
@@ -22,6 +22,7 @@
     }
 
     p {
+      color : $primaryWhite;
       width: 50%;
       font-size: 1.3rem;
       padding-inline: 5rem;
