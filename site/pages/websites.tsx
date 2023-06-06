@@ -92,7 +92,7 @@ const Websites = () => {
   return (
     <>
       <Head>
-        <link rel="icon" type="image/png" href="https://static.thenounproject.com/png/562360-200.pngl" />
+        <link rel="icon" type="image/png" href="https://www.shareicon.net/data/2015/08/10/83018_html_512x512.png" />
         <meta
           name="keywords"
           content="developer resources, websites, tools, tutorials, frameworks, coding, programming, software development, web development, productivity, efficiency, workflow, handpicked, curated, search, discovery, optimization"
@@ -121,6 +121,7 @@ const Websites = () => {
         <div className="catalogue">
           {catagoryData.map((tool: CatalogData, index: number) => (
             <ToolCard
+
               key={index}
               name={tool.name}
               paragraph={tool.paragraph}

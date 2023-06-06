@@ -9,7 +9,7 @@ const About = () => {
         <link
           rel="icon"
           type="image/png"
-          href="https://static.thenounproject.com/png/562360-200.pngl"
+          href="https://www.shareicon.net/data/2015/08/10/83018_html_512x512.png"
         />
         <meta
           name="keywords"
@@ -34,24 +34,24 @@ const About = () => {
       <Navbar />
       <main className="about-us">
         <div>
-          <h2 className="">About Devwisetools</h2>
+          <h2 className="">
+            About Devwisetools
+          </h2>
           <p>
-            Devwisetools was established with the aim of creating a developer-first
-            platform designed by programmers, for programmers. Our objective is
-            to assist both novice and skilled programmers in turning their
-            dreams into reality by providing access to a carefully curated
-            database of websites. Our user-friendly interface is designed to
-            simplify the process of discovering the right resources to bring
-            your ideas to life. Looking ahead, we are committed to expanding our
-            platform to make it more useful than ever before, so that we can
-            continue to support our growing community of developers.
+            Devwisetools was established with the aim of creating a
+            developer-first platform designed by programmers, for programmers.
+            Our objective is to assist both novice and skilled programmers in
+            turning their dreams into reality by providing access to a carefully
+            curated database of websites. Our user-friendly interface is
+            designed to simplify the process of discovering the right resources
+            to bring your ideas to life. Looking ahead, we are committed to
+            expanding our platform to make it more useful than ever before, so
+            that we can continue to support our growing community of developers.
           </p>
         </div>
       </main>
 
       <Footer color={"white"} bgColor={"black"} />
-
-
     </>
   );
 };

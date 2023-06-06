@@ -10,7 +10,7 @@
   margin-inline: auto;
   width: fit-content;
   font-weight: bold;
-  background: linear-gradient(to right, #14b8a6, #3b82f6);
+  background: linear-gradient(to right, #38B6FF, #B418B4);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -50,9 +50,11 @@
     border-radius: 0.5rem;
     border: none;
     font-size: 1.1rem;
+    transition: background-color 0.1s ease; 
 
     &:hover {
-      text-decoration: underline;
+      background-color: black;
+      color : white;
       cursor: pointer;
     }
   }

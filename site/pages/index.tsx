@@ -10,7 +10,11 @@ const Home = () => {
   return (
     <div className="index-page">
       <Head>
-        <link rel="icon" type="image/png" href="https://static.thenounproject.com/png/562360-200.pngl" />
+        <link
+          rel="icon"
+          type="image/png"
+          href="https://www.shareicon.net/data/2015/08/10/83018_html_512x512.png"
+        />
 
         <meta
           name="keywords"
@@ -31,7 +35,9 @@ const Home = () => {
 
       <Navbar />
       <h1 className="intro-text">Find Coding Tools 🛠</h1>
-      <p className = 'intro-text-description'>Explore Our Different Catagorys To Find The Tools You Need</p>
+      <p className="intro-text-description">
+        Explore Our Different Catagorys To Find The Tools You Need
+      </p>
       <main className="main-catagory-finder-section">
         <button
           onClick={() => {

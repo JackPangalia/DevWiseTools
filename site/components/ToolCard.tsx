@@ -11,6 +11,7 @@ interface Props {
 const ToolCard = ({ imgSrc, paragraph, link, name, imgAlt }: Props) => {
   return (
     <div className="tool-card">
+
       <Image
         loader={() => imgSrc}
         src={imgSrc}
@@ -19,7 +20,7 @@ const ToolCard = ({ imgSrc, paragraph, link, name, imgAlt }: Props) => {
         height={500}
       />
 
-      <p>{paragraph}</p>
+      <p className = 'description'>{paragraph}</p>
 
       <a href={link} target="_blank">
         {name}

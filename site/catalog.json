@@ -63,7 +63,7 @@
     ],
     "name": "Learn.Microsoft",
     "paragraph": "Documentation / tutorial for microsoft tools",
-    "link": "www.learn.microsoft.com",
+    "link": "https://learn.microsoft.com/en-us/",
     "imgLink": "https://learn.microsoft.com/en-us/media/home-and-directory/featured-training_light.jpg?branch=live"
   }, 
   {
@@ -652,5 +652,15 @@
     "paragraph": "Website to launch and find websites, great for your business!",
     "link": "https://www.producthunt.com/",
     "imgLink": "https://play-lh.googleusercontent.com/egUVT8GXqDto2jhREfVXQ-RobMNxzx3uANdTgcXVvahfLQ9A6it1znfo4dhV9GgJUg"
+  },
+  {
+    "type": "website",
+    "tag": [
+      "fontsandicons"
+    ],
+    "name": "Reactsvgicons.com",
+    "paragraph": "A vast east to use collection of svg icons for react",
+    "link": "https://reactsvgicons.com/",
+    "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
   }
 ]

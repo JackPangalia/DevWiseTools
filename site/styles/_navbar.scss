@@ -20,22 +20,51 @@ nav {
     }
   }
 
-  ul {
-    margin-right: 2rem;
-    align-items: center;
+  .list-items {
+    
     margin-left: auto;
     display: flex;
-    li {
-      padding-inline: 1rem;
-      a {
-        color: $primaryGray;
+    align-items: center;
 
-        &:hover {
-          font-weight: bold;
+    .website-items {
+      margin-right: 2rem;
+      display: flex;
+      align-items: center;
+
+      li {
+        padding-inline: 0.6rem;
+
+        a {
+          color : black;
+
+          &:hover {
+            font-weight: bold;
+          }
         }
       }
     }
+
+    .social-items {
+      padding-left: 2rem;
+      border-left: black solid 2px;
+      display: flex;
+      align-items: center;
+
+      li {
+        padding: 0.5rem;
+
+        a {
+          color : black;
+
+          &:hover {
+            color : darkgray;
+          }
+        }
+      }
+    }
+
   }
+
 }
 
 .dropdown {
@@ -93,7 +122,7 @@ nav {
 
 @media (max-width: 1024px) {
   nav {
-    ul {
+    .list-items {
       display: none;
     }
 

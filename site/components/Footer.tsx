@@ -26,6 +26,14 @@ const Footer = ({ bgColor, color }: FooterProps) => {
               About
             </Link>
           </li>
+
+          <li>
+            <Link href = '/contact' style = {{ color: color }}>Contact</Link>
+          </li>
+
+          <li>
+            <a href = '#'>Company</a>
+          </li>
         </ul>
 
         <p style={{ color: color }} className="">
