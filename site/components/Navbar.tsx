@@ -1,23 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <nav>
       <header>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-6 h-6"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
-          />
-        </svg>
+        <Image src = '/Devwisetoolslogo.svg' width={40} height={40} alt = 'devwisetoolslogo'/>
 
         <Link href="/">Devwisetools</Link>
       </header>
@@ -35,13 +23,13 @@ const Navbar = () => {
             <Link href = '/contact'>Contact Us</Link>
           </li>
 
-          <li>
+          {/* <li>
             <a href = '#'>Company</a>
-          </li>
+          </li> */}
         </ul>
 
         <ul className="social-items">
-          <li>
+          {/* <li>
             <a href="#">
               <svg
                 fill="currentColor"
@@ -65,7 +53,7 @@ const Navbar = () => {
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
               </svg>
             </a>
-          </li>
+          </li> */}
 
           <li>
             <a href="https://twitter.com/devwisetools" target = "_blank">
@@ -103,9 +91,9 @@ const Navbar = () => {
           <Link href="/websites">Tools</Link>
           <Link href="/about">About</Link>
           <Link href = '/contact'>Contact</Link>
-          <a href = '#'>Company</a>
+          {/* <a href = '#'>Company</a> */}
 
-          <a href="#">
+          {/* <a href="#">
             <svg
               fill="currentColor"
               viewBox="0 0 16 16"
@@ -125,7 +113,7 @@ const Navbar = () => {
             >
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
             </svg>
-          </a>
+          </a> */}
 
           <a href="#">
             <svg
